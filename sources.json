@@ -1,0 +1,45 @@
+{
+  "_说明": "个贷HOT 信源配置。直接编辑本文件即可增删信源；tier: T1=官方一手 T1.5=协会/准官方 T2=媒体/智库。keywords 是该版块每天的搜索关键词，可自由调整。",
+  "categories": [
+    {
+      "id": "policy",
+      "name": "政策监管",
+      "keywords": ["个人贷款 政策 金融监管总局 央行", "消费贷 房贷 监管 新规"]
+    },
+    {
+      "id": "industry",
+      "name": "行业形势",
+      "keywords": ["个人贷款 消费贷 行业 利率 不良率", "零售信贷 资产质量 形势"]
+    },
+    {
+      "id": "bank",
+      "name": "银行同业动态",
+      "keywords": ["银行 消费贷 个人贷款 产品 动态", "六大行 股份行 零售信贷 房贷"]
+    },
+    {
+      "id": "internet",
+      "name": "互联网金融动态",
+      "keywords": ["助贷 消费金融公司 互联网贷款 动态", "互金 平台 网贷 监管"]
+    },
+    {
+      "id": "fintech",
+      "name": "金融科技",
+      "keywords": ["金融科技 大模型 智能风控 信贷", "银行 AI 数字化 贷款 应用"]
+    }
+  ],
+  "sources": [
+    { "name": "国家金融监督管理总局", "tier": "T1", "url": "https://www.nfra.gov.cn", "note": "政策文件、行政处罚、答记者问" },
+    { "name": "中国人民银行", "tier": "T1", "url": "http://www.pbc.gov.cn", "note": "货币政策、金融数据、利率公告" },
+    { "name": "财政部", "tier": "T1", "url": "https://www.mof.gov.cn", "note": "贴息等财政政策" },
+    { "name": "中国银行业协会", "tier": "T1.5", "url": "https://www.china-cba.net", "note": "行业自律规范、指引" },
+    { "name": "中国互联网金融协会", "tier": "T1.5", "url": "https://www.nifa.org.cn", "note": "互金行业自律动态" },
+    { "name": "银登中心", "tier": "T1.5", "url": "https://www.yindengzhongxin.cn", "note": "不良贷款转让挂牌数据" },
+    { "name": "21世纪经济报道", "tier": "T2", "url": "https://www.21jingji.com", "note": "银行/金融科技条线报道" },
+    { "name": "经济观察报", "tier": "T2", "url": "http://www.eeo.com.cn", "note": "银行业深度报道" },
+    { "name": "证券时报", "tier": "T2", "url": "https://www.stcn.com", "note": "信贷市场报道" },
+    { "name": "第一财经", "tier": "T2", "url": "https://www.yicai.com", "note": "金融市场资讯" },
+    { "name": "新浪财经·银行频道", "tier": "T2", "url": "https://finance.sina.com.cn/money/bank/", "note": "银行业聚合资讯" },
+    { "name": "零壹智库", "tier": "T2", "url": "https://www.01caijing.com", "note": "消金/助贷行业数据研究" },
+    { "name": "观察者网·金融", "tier": "T2", "url": "https://www.guancha.cn", "note": "金融行业观察" }
+  ]
+}
