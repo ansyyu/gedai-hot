@@ -1,0 +1,128 @@
+{
+  "date": "2026-07-18",
+  "weekday": "星期六",
+  "focus": {
+    "title": "上半年居民贷款减少3668亿元，创历史首次半年度净减少",
+    "summary": "2026年上半年居民贷款减少<b>3668亿元</b>，同比少增<b>1.54万亿元</b>，创下有统计以来的首次半年度净减少纪录。这一趋势反映出居民持续缩减债务的行为，或与经济环境、消费意愿下降以及信贷政策调整密切相关。"
+  },
+  "stats": [
+    {
+      "num": "3668",
+      "unit": "亿元",
+      "label": "上半年居民贷款减少额"
+    },
+    {
+      "num": "1.54",
+      "unit": "万亿元",
+      "label": "同比少增的贷款规模"
+    },
+    {
+      "num": "30",
+      "unit": "万元",
+      "label": "宁夏银行天津北辰支行被罚金额"
+    },
+    {
+      "num": "29",
+      "unit": "万元",
+      "label": "江西赣州银座村镇银行被罚金额"
+    }
+  ],
+  "items": [
+    {
+      "category": "macro",
+      "tier": "T2",
+      "source": "新浪财经",
+      "score": 9.3,
+      "title": "上半年居民贷款减少3668亿元，创历史首次半年度净减少",
+      "url": "https://finance.sina.com.cn/money/bank/bank_hydt/2026-07-17/doc-iniiccuy4167106.shtml",
+      "summary": "2026年上半年居民贷款减少<b>3668亿元</b>，同比少增<b>1.54万亿元</b>，为有统计以来首次半年度净减少，反映出居民持续缩减债务的趋势。",
+      "reason": "居民贷款大幅下降对个人信贷市场影响深远，值得关注其背后原因。",
+      "dateNote": "2026-07-17",
+      "links": []
+    },
+    {
+      "category": "macro",
+      "tier": "T1",
+      "source": "国家统计局",
+      "score": 9,
+      "title": "2026年二季度和上半年国内生产总值初步核算结果公布",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202607/t20260716_1964142.html",
+      "summary": "国家统计局发布2026年上半年国内生产总值初步核算结果，为分析经济走势和信贷需求提供重要参考。",
+      "reason": "GDP数据是宏观经济的重要指标，直接影响信贷需求和政策走向。",
+      "dateNote": "2026-07-16",
+      "links": []
+    },
+    {
+      "category": "risk",
+      "tier": "T2",
+      "source": "新浪财经",
+      "score": 8.5,
+      "title": "扶风县农信联社因贷款三查不尽职被罚30万元",
+      "url": "https://finance.sina.com.cn/jryx/fd/2026-07-17/doc-iniickaz8210749.shtml",
+      "summary": "国家金融监督管理总局宝鸡监管分局对扶风县农村信用合作联社及相关责任人开出罚单，因其贷款三查不尽职，被罚款<b>30万元</b>。",
+      "reason": "贷款三查不尽职问题直接关系到信贷风险管控，值得从业者警惕。",
+      "dateNote": "2026-07-17",
+      "links": []
+    },
+    {
+      "category": "risk",
+      "tier": "T2",
+      "source": "新浪财经",
+      "score": 8.4,
+      "title": "宁夏银行天津北辰支行因贷款风险分类不准确被罚30万元",
+      "url": "https://finance.sina.com.cn/jryx/fd/2026-07-17/doc-iniickaw4126478.shtml",
+      "summary": "国家金融监督管理总局天津监管局对宁夏银行天津北辰支行开出罚单，因贷款风险分类不准确，被罚款<b>30万元</b>。",
+      "reason": "贷款风险分类不准确可能导致不良资产隐患，需引起重视。",
+      "dateNote": "2026-07-17",
+      "links": []
+    },
+    {
+      "category": "risk",
+      "tier": "T2",
+      "source": "新浪财经",
+      "score": 8.3,
+      "title": "江西赣州银座村镇银行因违反征信业务管理规定被罚29万元",
+      "url": "https://finance.sina.com.cn/jryx/fd/2026-07-17/doc-iniickaz8226842.shtml",
+      "summary": "中国人民银行赣州市分行对江西赣州银座村镇银行开出罚单，因违反征信业务管理规定，被罚款<b>29万元</b>。",
+      "reason": "征信管理是信贷业务合规的基础，违规行为需高度警惕。",
+      "dateNote": "2026-07-17",
+      "links": []
+    },
+    {
+      "category": "consumer",
+      "tier": "T2",
+      "source": "新浪财经",
+      "score": 8.2,
+      "title": "深圳清退8家失联空壳小贷公司，含佳兆业旗下企业",
+      "url": "https://finance.sina.com.cn/money/bank/guangjiao/2026-07-17/doc-iniiaxpe1499766.shtml",
+      "summary": "深圳地方金融管理局发布公告，撤销8家“失联”“空壳”小额贷款公司业务资质，其中包括一家佳兆业旗下企业。",
+      "reason": "小贷行业清退行动持续推进，行业洗牌对助贷合作影响值得关注。",
+      "dateNote": "2026-07-17",
+      "links": []
+    },
+    {
+      "category": "macro",
+      "tier": "T1",
+      "source": "金融监管总局·政策法规",
+      "score": 8,
+      "title": "肖远企赴罗马尼亚、希腊访问",
+      "url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1264951&itemId=915",
+      "summary": "国家金融监督管理总局肖远企赴罗马尼亚、希腊访问，或涉及金融合作与监管经验交流。",
+      "reason": "国际金融合作可能带来政策启示，值得关注后续动态。",
+      "dateNote": "2026-07-17",
+      "links": []
+    },
+    {
+      "category": "risk",
+      "tier": "T1",
+      "source": "金融监管总局·行政处罚",
+      "score": 7.8,
+      "title": "国家金融监督管理总局公布最新行政处罚信息",
+      "url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1264901&itemId=4113",
+      "summary": "国家金融监督管理总局更新行政处罚信息，涉及多家金融机构在信贷管理中的违规行为。",
+      "reason": "监管处罚信息为从业者提供了合规管理的警示案例。",
+      "dateNote": "2026-07-17",
+      "links": []
+    }
+  ]
+}
