@@ -38,6 +38,13 @@ jobs:
           DRY_RUN: ${{ inputs.dryrun }}
         run: node scripts/editorial.js
 
+      - name: 生成 AI 播客
+        if: ${{ inputs.dryrun != '1' }}
+        continue-on-error: true
+        run: |
+          pip install --quiet edge-tts
+          node scripts/podcast.js
+
       - name: 重建站点页面
         run: node build.js
 

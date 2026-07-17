@@ -82,6 +82,22 @@ function renderPage(data, { isArchivePage = false, allDates = [] } = {}) {
     )
     .join("");
 
+  // 播客播放器：仅当该期音频存在时渲染
+  const hasAudio = fs.existsSync(path.join(ROOT, "audio", `${data.date}.mp3`));
+  const player = hasAudio
+    ? `
+  <div class="player" id="player">
+    <button class="play-btn" id="playBtn" aria-label="播放日报">▶</button>
+    <div class="player-info">
+      <div class="player-title">🎙️ AI 播客 · 听今天的日报</div>
+      <div class="player-bar"><div class="player-progress" id="playerProgress"></div></div>
+    </div>
+    <span class="player-time" id="playerTime">--:--</span>
+    <button class="speed-btn" id="speedBtn">1x</button>
+    <audio id="audioEl" src="${prefix}audio/${data.date}.mp3" preload="none"></audio>
+  </div>`
+    : "";
+
   // 按分类分组渲染（组标题 + 卡片），便于"全部"视图下分区浏览
   const groups = CATEGORIES.map((c) => {
     const items = data.items.filter((i) => i.category === c.id);
@@ -114,7 +130,7 @@ function renderPage(data, { isArchivePage = false, allDates = [] } = {}) {
 </header>
 
 ${dateNav}
-
+${player}
 <div class="focus">
   <div class="focus-card">
     <div class="tag">今日头条</div>
@@ -164,6 +180,34 @@ ${groups}
     if (d === ${JSON.stringify(data.date)}) return;
     location.href = ${JSON.stringify(dailyPrefix)} + d + '.html';
   });
+  // 播客播放器
+  var audio = document.getElementById('audioEl');
+  if (audio) {
+    var btn = document.getElementById('playBtn');
+    var prog = document.getElementById('playerProgress');
+    var time = document.getElementById('playerTime');
+    var speedBtn = document.getElementById('speedBtn');
+    var speeds = [1, 1.25, 1.5, 2], si = 0;
+    var fmt = function(s){ if(!isFinite(s)) return '--:--'; var m=Math.floor(s/60); return m+':'+String(Math.floor(s%60)).padStart(2,'0'); };
+    btn.addEventListener('click', function(){
+      if (audio.paused) { audio.play(); btn.textContent = '⏸'; }
+      else { audio.pause(); btn.textContent = '▶'; }
+    });
+    audio.addEventListener('timeupdate', function(){
+      if (audio.duration) prog.style.width = (audio.currentTime/audio.duration*100) + '%';
+      time.textContent = fmt(audio.currentTime) + ' / ' + fmt(audio.duration);
+    });
+    audio.addEventListener('loadedmetadata', function(){ time.textContent = '0:00 / ' + fmt(audio.duration); });
+    audio.addEventListener('ended', function(){ btn.textContent = '▶'; prog.style.width = '0'; });
+    speedBtn.addEventListener('click', function(){
+      si = (si+1) % speeds.length; audio.playbackRate = speeds[si]; speedBtn.textContent = speeds[si] + 'x';
+    });
+    document.querySelector('.player-bar').addEventListener('click', function(e){
+      if (!audio.duration) return;
+      var r = e.currentTarget.getBoundingClientRect();
+      audio.currentTime = (e.clientX - r.left) / r.width * audio.duration;
+    });
+  }
 })();
 </script>
 </body>
