@@ -130,13 +130,22 @@ async function fetchBing() {
     : { urls: {}, fps: {} };
 
   const now = Date.now();
+  // 官方/媒体直采适配器（监管总局、央行、统计局、证券时报、新华财经…）
+  const { adapters } = require("./adapters.js");
+  const official = [];
+  for (const fn of adapters) {
+    const got = await fn();
+    console.log(`  ${fn.name}: ${got.length} 条`);
+    // 官方源(T1/T1.5)不做标题关键词过滤——由 AI 编辑判断相关性；T2 媒体源仍过滤
+    official.push(...got.filter((it) => (it.tier !== "T2" ? true : hit(it.title))));
+  }
   const sina = await fetchSina();
   const bing = await fetchBing();
-  console.log(`新浪命中 ${sina.length} 条，Bing 命中 ${bing.length} 条`);
+  console.log(`直采 ${official.length} 条，新浪命中 ${sina.length} 条，Bing 命中 ${bing.length} 条`);
 
   let tooOld = 0, dup = 0;
   const byUrl = new Map();
-  for (const it of [...sina, ...bing]) {
+  for (const it of [...official, ...sina, ...bing]) {
     const t = Date.parse(it.pubDate);
     if (isNaN(t)) continue;
     const ageH = (now - t) / 3600e3;

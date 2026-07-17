@@ -50,7 +50,7 @@ const whitelist = sources.sources.map((s) => `${s.name}=${s.tier}`).join("；");
 const list = items
   .map(
     (it, i) =>
-      `[${i}] ${it.title} ｜来源:${it.source} ｜${it.pubDate.slice(0, 10)}(${it.ageHours}h前) ｜${(it.desc || "").slice(0, 80)}`
+      `[${i}] ${it.title} ｜来源:${it.source}${it.tier ? `(${it.tier})` : ""} ｜${it.pubDate.slice(0, 10)}(${it.ageHours}h前) ｜${(it.desc || "").slice(0, 80)}`
   )
   .join("\n");
 
@@ -145,7 +145,8 @@ function parseJson(text) {
       const src = items[s.idx];
       return {
         category: s.category,
-        tier: ["T1", "T1.5", "T2"].includes(s.tier) ? s.tier : "T2",
+        // 直采条目自带权威分级，优先于模型判断
+        tier: src.tier || (["T1", "T1.5", "T2"].includes(s.tier) ? s.tier : "T2"),
         source: src.source,
         score: Math.min(10, Math.max(7, Number(s.score) || 7.5)),
         title: String(s.title).slice(0, 60),
