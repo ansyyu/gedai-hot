@@ -2,8 +2,8 @@ name: 每日生成个贷HOT日报
 
 on:
   schedule:
-    # UTC 00:40 = 北京时间 08:40，Pages 部署后约 09:00 前可见
-    - cron: "40 0 * * *"
+    # UTC 21:12 = 北京时间凌晨 05:12（避开整点高峰，减少排队延迟）
+    - cron: "12 21 * * *"
   workflow_dispatch:
     inputs:
       dryrun:
