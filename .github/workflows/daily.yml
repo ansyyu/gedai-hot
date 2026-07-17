@@ -48,6 +48,17 @@ jobs:
       - name: 重建站点页面
         run: node build.js
 
+      - name: 清理90天前的播客音频（文字数据永久保留）
+        run: |
+          find audio -name "*.mp3" -mtime +90 -delete 2>/dev/null || true
+          cutoff=$(TZ=Asia/Shanghai date -d "90 days ago" +%F)
+          for f in audio/*.mp3; do
+            [ -e "$f" ] || continue
+            d=$(basename "$f" .mp3)
+            [[ "$d" < "$cutoff" ]] && rm -f "$f" && echo "清理 $f"
+          done
+          true
+
       - name: 提交并推送
         run: |
           git config user.name "gedai-hot-bot"
