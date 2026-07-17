@@ -4,7 +4,12 @@ on:
   schedule:
     # UTC 00:40 = 北京时间 08:40，Pages 部署后约 09:00 前可见
     - cron: "40 0 * * *"
-  workflow_dispatch: {}
+  workflow_dispatch:
+    inputs:
+      dryrun:
+        description: "试运行（1=只测试不写入）"
+        required: false
+        default: ""
 
 permissions:
   contents: write
@@ -30,6 +35,7 @@ jobs:
       - name: AI 编辑生成今日日报
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          DRY_RUN: ${{ inputs.dryrun }}
         run: node scripts/editorial.js
 
       - name: 重建站点页面
