@@ -37,16 +37,19 @@
 - **调关键词**：每个版块的 `keywords` 是每日搜索词，可自由增删。
 - 改完无需其他操作，次日任务自动按新配置搜集。
 
-## 每日自动更新
+## 每日自动更新（云端全托管）
 
-已注册计划任务 `gedai-hot-daily`（每天 08:10，Claude Code 打开时自动执行；当天错过则下次启动补跑）：
+由 GitHub Actions 云端定时执行（`.github/workflows/daily.yml`，每天北京时间约 08:40），**不依赖本地电脑、Claude Code 或代理**：
 
-1. 按 `sources.json` 的版块关键词搜索近 24-48 小时资讯，白名单信源优先
-2. 生成当日 `archive/YYYY-MM-DD.json`（与往期对比去重）
-3. `node build.js` 重建全部页面
-4. git 提交，若已配置 remote 则推送 GitHub Pages 上线
+1. `scripts/collect.js` 采集：新浪财经滚动流（真实链接+发布时间戳）+ Bing News RSS，按 `matchKeywords`/`excludeKeywords` 过滤，**只收最近 48 小时**且未收录过（`data/seen.json` URL 级去重）
+2. `scripts/editorial.js` AI 编辑：调用 GitHub Models 免费模型（DeepSeek-V3/GPT-4o）筛选、归类六版块、评分、写摘要与推荐理由；模型只能引用采集条目的序号，链接与日期由脚本回填，**无法虚构来源**
+3. `node build.js` 重建页面 → 自动 commit + push → Pages 上线
 
-手动补跑：在 Claude Code 侧栏「Scheduled」里对该任务点 Run now，或直接说"生成今天的个贷HOT日报"。
+手动补跑：GitHub 仓库页 → Actions → 「每日生成个贷HOT日报」→ Run workflow；或在本地跟 Claude 说"生成今天的日报"。
+
+失败会怎样：某天采集不足 2 条则不出刊（保持前一期）；流程出错时 GitHub 会发邮件通知仓库所有者。
+
+⚠️ 本地改动（如编辑 sources.json）前先 `git pull`——云端每天会产生新提交。
 
 ## 回溯往期
 

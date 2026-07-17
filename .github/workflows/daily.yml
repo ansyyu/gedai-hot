@@ -1,0 +1,48 @@
+name: 每日生成个贷HOT日报
+
+on:
+  schedule:
+    # UTC 00:40 = 北京时间 08:40，Pages 部署后约 09:00 前可见
+    - cron: "40 0 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+  models: read
+
+concurrency:
+  group: daily-report
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: 采集近48小时资讯
+        run: node scripts/collect.js
+
+      - name: AI 编辑生成今日日报
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node scripts/editorial.js
+
+      - name: 重建站点页面
+        run: node build.js
+
+      - name: 提交并推送
+        run: |
+          git config user.name "gedai-hot-bot"
+          git config user.email "actions@github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "无变化，跳过提交"
+          else
+            git commit -m "日报 $(TZ=Asia/Shanghai date +%F)（云端自动生成）"
+            git push
+          fi
