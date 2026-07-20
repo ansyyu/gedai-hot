@@ -1,0 +1,92 @@
+{
+  "date": "2026-07-21",
+  "weekday": "星期二",
+  "focus": {
+    "title": "LPR连续14个月持稳，下半年逆周期调节如何落地？",
+    "summary": "新一期贷款市场报价利率（LPR）出炉，1年期和5年期LPR分别维持在<b>3.0%</b>和<b>3.45%</b>，至此已连续<b>14个月</b>保持不变。市场关注下半年是否会有进一步的逆周期调节政策出台，以应对经济下行压力。"
+  },
+  "stats": [
+    {
+      "num": "3.0",
+      "unit": "%",
+      "label": "1年期LPR"
+    },
+    {
+      "num": "3.45",
+      "unit": "%",
+      "label": "5年期LPR"
+    },
+    {
+      "num": "14",
+      "unit": "个月",
+      "label": "LPR连续持稳时间"
+    },
+    {
+      "num": "650",
+      "unit": "万元",
+      "label": "招商银行被罚金额"
+    }
+  ],
+  "items": [
+    {
+      "category": "macro",
+      "tier": "T2",
+      "source": "新浪财经",
+      "score": 9,
+      "title": "LPR连续14个月持稳，下半年逆周期调节如何落地？",
+      "url": "https://finance.sina.com.cn/roll/2026-07-20/doc-iniimzhe8183785.shtml",
+      "summary": "新一期贷款市场报价利率（LPR）出炉，1年期和5年期LPR分别维持在<b>3.0%</b>和<b>3.45%</b>，至此已连续<b>14个月</b>保持不变。市场关注下半年是否会有进一步的逆周期调节政策出台，以应对经济下行压力。",
+      "reason": "LPR走势直接影响贷款利率，是个贷从业者关注的核心指标。",
+      "dateNote": "2026-07-20",
+      "links": []
+    },
+    {
+      "category": "risk",
+      "tier": "T1",
+      "source": "新浪财经",
+      "score": 8.5,
+      "title": "涉风控漏洞，招商银行领年内最大罚单650万",
+      "url": "https://finance.sina.com.cn/stock/relnews/hk/2026-07-20/doc-iniimzfz2944941.shtml",
+      "summary": "国家金融监督管理总局披露，招商银行因多项违法违规行为被罚<b>650万元</b>，为年内最大罚单。违规行为主要涉及集团风控层面，凸显风控管理的重要性。",
+      "reason": "风控漏洞直接影响贷款质量，此次处罚对行业具有警示意义。",
+      "dateNote": "2026-07-20",
+      "links": []
+    },
+    {
+      "category": "risk",
+      "tier": "T2",
+      "source": "新浪财经",
+      "score": 8.3,
+      "title": "微众银行砍掉超150家催收机构",
+      "url": "https://finance.sina.com.cn/money/bank/gsdt/2026-07-20/doc-iniimzha9761688.shtml",
+      "summary": "微众银行在2026年大幅调整催收策略，已砍掉超<b>150家</b>催收机构，显示其对催收合规性和客户体验的重视。",
+      "reason": "催收合规是行业热点，微众银行的动作或为其他机构提供参考。",
+      "dateNote": "2026-07-20",
+      "links": []
+    },
+    {
+      "category": "tech",
+      "tier": "T2",
+      "source": "新浪财经",
+      "score": 8,
+      "title": "蚂蚁集团、阿里云加入PyTorch基金会推动AI普惠",
+      "url": "https://finance.sina.com.cn/stock/relnews/hk/2026-07-20/doc-iniinmvw9681622.shtml",
+      "summary": "蚂蚁集团与阿里云正式加入PyTorch基金会，携手全球开源力量推动AI普惠化发展，助力人工智能技术在金融等领域的广泛应用。",
+      "reason": "AI技术在风控和信贷审批中的应用前景广阔，值得关注。",
+      "dateNote": "2026-07-20",
+      "links": []
+    },
+    {
+      "category": "risk",
+      "tier": "T2",
+      "source": "新浪财经",
+      "score": 7.8,
+      "title": "硕腾面临证券欺诈诉讼，投资者索赔窗口期临近",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-07-21/doc-iniinwmw4980935.shtml",
+      "summary": "动物保健巨头硕腾公司因涉嫌证券欺诈面临集体诉讼，投资者索赔窗口期即将关闭，案件或对公司信用评级产生影响。",
+      "reason": "企业信用评级变化可能间接影响相关贷款风险评估。",
+      "dateNote": "2026-07-20",
+      "links": []
+    }
+  ]
+}
