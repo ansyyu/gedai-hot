@@ -1,70 +1,297 @@
 {
   "_说明": "个贷HOT 信源配置。直接编辑本文件即可增删信源；tier: T1=官方一手 T1.5=准官方/机构一手 T2=媒体/智库/公众号。keywords 是该版块每天的搜索关键词，matchKeywords 是采集器的标题过滤词（标题含任一词才收），均可自由调整。",
-  "matchKeywords": ["贷款", "信贷", "房贷", "按揭", "公积金", "消费金融", "助贷", "催收", "征信", "利率", "LPR", "普惠", "风控", "消金", "借款", "不良", "逾期", "首付", "提前还款", "个贷"],
-  "excludeKeywords": ["美国", "美联储", "美元", "日本", "日元", "韩国", "韩元", "港股", "美股", "期货", "对外担保", "英国", "欧元", "欧洲央行", "毛利率", "净利率", "收益率", "汇率"],
+  "matchKeywords": [
+    "贷款",
+    "信贷",
+    "房贷",
+    "按揭",
+    "公积金",
+    "消费金融",
+    "助贷",
+    "催收",
+    "征信",
+    "利率",
+    "LPR",
+    "普惠",
+    "风控",
+    "消金",
+    "借款",
+    "不良",
+    "逾期",
+    "首付",
+    "提前还款",
+    "个贷",
+    "欺诈",
+    "骗贷",
+    "套路贷",
+    "征信修复",
+    "金融消费者",
+    "反催收"
+  ],
+  "excludeKeywords": [
+    "美国",
+    "美联储",
+    "美元",
+    "日本",
+    "日元",
+    "日央行",
+    "韩国",
+    "韩元",
+    "港股",
+    "美股",
+    "期货",
+    "对外担保",
+    "英国",
+    "欧元",
+    "欧洲央行",
+    "毛利率",
+    "净利率",
+    "收益率",
+    "汇率",
+    "金价",
+    "黄金",
+    "不存在逾期",
+    "限售股"
+  ],
   "categories": [
     {
       "id": "macro",
       "name": "宏观",
       "desc": "个人贷款相关的国家政策、行业监管新规、利率调整、市场整体趋势（个人信贷规模变化、行业发展规划）等全局性内容",
-      "keywords": ["个人贷款 政策 金融监管总局 央行 新规", "信贷 社融 人民币贷款 LPR 货币政策", "PMI 宏观经济 居民信贷 规模"]
+      "keywords": [
+        "个人贷款 政策 金融监管总局 央行 新规",
+        "信贷 社融 人民币贷款 LPR 货币政策",
+        "PMI 宏观经济 居民信贷 规模"
+      ],
+      "searchKeywords": [
+        "个人贷款 政策",
+        "零售信贷"
+      ]
     },
     {
       "id": "mortgage",
       "name": "房贷",
       "desc": "个人住房贷款（含商业房贷、公积金贷款）的政策调整、利率变动、申请条件、还款规则、楼市相关信贷支持",
-      "keywords": ["个人住房贷款 房贷利率 政策", "公积金贷款 商转公 首付 还款", "商品房销售 住房成交 楼市 信贷支持"]
+      "keywords": [
+        "个人住房贷款 房贷利率 政策",
+        "公积金贷款 商转公 首付 还款",
+        "商品房销售 住房成交 楼市 信贷支持"
+      ],
+      "searchKeywords": [
+        "房贷 利率",
+        "公积金贷款"
+      ]
     },
     {
       "id": "sme",
       "name": "小微贷",
       "desc": "面向小微企业主、个体工商户的个人经营性贷款：额度、利率、申请流程、扶持政策",
-      "keywords": ["个人经营贷 小微企业主 个体工商户 贷款", "普惠金融 经营性贷款 扶持政策 利率", "银行 经营贷 产品 额度"]
+      "keywords": [
+        "个人经营贷 小微企业主 个体工商户 贷款",
+        "普惠金融 经营性贷款 扶持政策 利率",
+        "银行 经营贷 产品 额度"
+      ],
+      "searchKeywords": [
+        "个人经营贷",
+        "小微贷款 个体工商户"
+      ]
     },
     {
       "id": "consumer",
       "name": "消费贷",
       "desc": "日常消费（家电、教育、旅游、装修等）的个人信用贷款、分期贷款：产品推出、利率优惠、使用限制、贴息",
-      "keywords": ["消费贷 银行 产品 利率 动态", "消费金融 助贷 分期 贴息", "汽车贷款 车贷 信用卡分期"]
+      "keywords": [
+        "消费贷 银行 产品 利率 动态",
+        "消费金融 助贷 分期 贴息",
+        "汽车贷款 车贷 信用卡分期"
+      ],
+      "searchKeywords": [
+        "消费贷",
+        "消费金融 助贷"
+      ]
     },
     {
       "id": "risk",
       "name": "风险",
       "desc": "个人贷款领域的逾期率上升、欺诈案例、合规处罚、催收问题、借款人权益保护",
-      "keywords": ["个人贷款 不良率 逾期 风险", "催收 罚单 处罚 违规 贷款", "骗贷 欺诈 借款人权益 投诉"]
+      "keywords": [
+        "个人贷款 不良率 逾期 风险",
+        "催收 罚单 处罚 违规 贷款",
+        "骗贷 欺诈 借款人权益 投诉"
+      ],
+      "searchKeywords": [
+        "贷款 逾期率",
+        "贷款 欺诈 骗贷",
+        "催收 投诉",
+        "借款人 权益 征信",
+        "不良贷款 转让"
+      ]
     },
     {
       "id": "tech",
       "name": "科技",
       "desc": "个人贷款领域的最新科技动态：风控、营销、贷后等方面的新技术与应用成果",
-      "keywords": ["金融科技 智能风控 大模型 信贷", "银行 AI 智能体 数字化 贷款", "信贷科技 营销 贷后 技术 应用"]
+      "keywords": [
+        "金融科技 智能风控 大模型 信贷",
+        "银行 AI 智能体 数字化 贷款",
+        "信贷科技 营销 贷后 技术 应用"
+      ],
+      "searchKeywords": [
+        "智能风控 信贷",
+        "银行 大模型 AI"
+      ]
     }
   ],
   "sources": [
-    { "name": "国家金融监督管理总局", "tier": "T1", "url": "https://www.nfra.gov.cn", "note": "政策文件、行政处罚、答记者问（含官方微信公众号）" },
-    { "name": "中国人民银行", "tier": "T1", "url": "http://www.pbc.gov.cn", "note": "货币政策、金融数据、利率公告" },
-    { "name": "财政部", "tier": "T1", "url": "https://www.mof.gov.cn", "note": "贴息等财政政策" },
-    { "name": "国家统计局", "tier": "T1", "url": "https://www.stats.gov.cn", "note": "PMI、房地产市场、宏观经济数据" },
-    { "name": "地方政府/公积金中心官网", "tier": "T1", "url": "https://www.gd.gov.cn", "note": "地方购房支持、公积金新政（如广东省政府官网等各地官网）" },
-    { "name": "中国银行业协会", "tier": "T1.5", "url": "https://www.china-cba.net", "note": "行业自律规范、指引" },
-    { "name": "中国互联网金融协会", "tier": "T1.5", "url": "https://www.nifa.org.cn", "note": "互金行业自律动态" },
-    { "name": "银登中心", "tier": "T1.5", "url": "https://www.yindengzhongxin.cn", "note": "不良贷款转让挂牌数据" },
-    { "name": "新华财经", "tier": "T1.5", "url": "https://www.cnfin.com", "note": "新华社旗下：LPR报价、房地产深度观察等" },
-    { "name": "商业银行官网", "tier": "T1.5", "url": "https://www.cebbank.com", "note": "各行产品动态一手信源（光大、工行、中行、民生等官网及公告）" },
-    { "name": "21世纪经济报道", "tier": "T2", "url": "https://www.21jingji.com", "note": "银行/金融科技条线报道" },
-    { "name": "经济观察报/经济观察网", "tier": "T2", "url": "http://www.eeo.com.cn", "note": "银行业深度报道、银行个人信贷业务专刊" },
-    { "name": "证券时报", "tier": "T2", "url": "https://www.stcn.com", "note": "信贷市场报道" },
-    { "name": "第一财经", "tier": "T2", "url": "https://www.yicai.com", "note": "金融市场资讯、中小银行动态" },
-    { "name": "新浪财经·银行频道", "tier": "T2", "url": "https://finance.sina.com.cn/money/bank/", "note": "银行业聚合资讯（含首都金融、市场资讯等栏目）" },
-    { "name": "财联社", "tier": "T2", "url": "https://www.cls.cn", "note": "大金融快讯、同业产品动态" },
-    { "name": "中指研究院", "tier": "T2", "url": "https://www.cih-index.com", "note": "百城房价指数、住宅市场数据" },
-    { "name": "零壹智库", "tier": "T2", "url": "https://www.01caijing.com", "note": "消金/助贷行业数据研究" },
-    { "name": "观察者网·金融", "tier": "T2", "url": "https://www.guancha.cn", "note": "金融行业观察" },
-    { "name": "上观新闻", "tier": "T2", "url": "https://www.jfdaily.com", "note": "上海银行同业动态、每日银行快讯" },
-    { "name": "半岛网", "tier": "T2", "url": "https://news.bandao.cn", "note": "区域银行财经报道（如江苏银行等）" },
-    { "name": "北京商报·财经新一线", "tier": "T2", "url": "https://mp.weixin.qq.com", "note": "微信公众号：银行个贷条线一线观察" },
-    { "name": "浙商证券·李超宏观研究与资产配置", "tier": "T2", "url": "https://mp.weixin.qq.com", "note": "微信公众号：信贷/社融等金融指标月度回顾" },
-    { "name": "奇富科技", "tier": "T2", "url": "https://mp.weixin.qq.com", "note": "微信公众号：信贷智能体、银行智能化转型动态" },
-    { "name": "财经头条/乐居买房", "tier": "T2", "url": "https://cj.sina.com.cn", "note": "不动产、住宅市场研究" }
+    {
+      "name": "国家金融监督管理总局",
+      "tier": "T1",
+      "url": "https://www.nfra.gov.cn",
+      "note": "政策文件、行政处罚、答记者问（含官方微信公众号）"
+    },
+    {
+      "name": "中国人民银行",
+      "tier": "T1",
+      "url": "http://www.pbc.gov.cn",
+      "note": "货币政策、金融数据、利率公告"
+    },
+    {
+      "name": "财政部",
+      "tier": "T1",
+      "url": "https://www.mof.gov.cn",
+      "note": "贴息等财政政策"
+    },
+    {
+      "name": "国家统计局",
+      "tier": "T1",
+      "url": "https://www.stats.gov.cn",
+      "note": "PMI、房地产市场、宏观经济数据"
+    },
+    {
+      "name": "地方政府/公积金中心官网",
+      "tier": "T1",
+      "url": "https://www.gd.gov.cn",
+      "note": "地方购房支持、公积金新政（如广东省政府官网等各地官网）"
+    },
+    {
+      "name": "中国银行业协会",
+      "tier": "T1.5",
+      "url": "https://www.china-cba.net",
+      "note": "行业自律规范、指引"
+    },
+    {
+      "name": "中国互联网金融协会",
+      "tier": "T1.5",
+      "url": "https://www.nifa.org.cn",
+      "note": "互金行业自律动态"
+    },
+    {
+      "name": "银登中心",
+      "tier": "T1.5",
+      "url": "https://www.yindengzhongxin.cn",
+      "note": "不良贷款转让挂牌数据"
+    },
+    {
+      "name": "新华财经",
+      "tier": "T1.5",
+      "url": "https://www.cnfin.com",
+      "note": "新华社旗下：LPR报价、房地产深度观察等"
+    },
+    {
+      "name": "商业银行官网",
+      "tier": "T1.5",
+      "url": "https://www.cebbank.com",
+      "note": "各行产品动态一手信源（光大、工行、中行、民生等官网及公告）"
+    },
+    {
+      "name": "21世纪经济报道",
+      "tier": "T2",
+      "url": "https://www.21jingji.com",
+      "note": "银行/金融科技条线报道"
+    },
+    {
+      "name": "经济观察报/经济观察网",
+      "tier": "T2",
+      "url": "http://www.eeo.com.cn",
+      "note": "银行业深度报道、银行个人信贷业务专刊"
+    },
+    {
+      "name": "证券时报",
+      "tier": "T2",
+      "url": "https://www.stcn.com",
+      "note": "信贷市场报道"
+    },
+    {
+      "name": "第一财经",
+      "tier": "T2",
+      "url": "https://www.yicai.com",
+      "note": "金融市场资讯、中小银行动态"
+    },
+    {
+      "name": "新浪财经·银行频道",
+      "tier": "T2",
+      "url": "https://finance.sina.com.cn/money/bank/",
+      "note": "银行业聚合资讯（含首都金融、市场资讯等栏目）"
+    },
+    {
+      "name": "财联社",
+      "tier": "T2",
+      "url": "https://www.cls.cn",
+      "note": "大金融快讯、同业产品动态"
+    },
+    {
+      "name": "中指研究院",
+      "tier": "T2",
+      "url": "https://www.cih-index.com",
+      "note": "百城房价指数、住宅市场数据"
+    },
+    {
+      "name": "零壹智库",
+      "tier": "T2",
+      "url": "https://www.01caijing.com",
+      "note": "消金/助贷行业数据研究"
+    },
+    {
+      "name": "观察者网·金融",
+      "tier": "T2",
+      "url": "https://www.guancha.cn",
+      "note": "金融行业观察"
+    },
+    {
+      "name": "上观新闻",
+      "tier": "T2",
+      "url": "https://www.jfdaily.com",
+      "note": "上海银行同业动态、每日银行快讯"
+    },
+    {
+      "name": "半岛网",
+      "tier": "T2",
+      "url": "https://news.bandao.cn",
+      "note": "区域银行财经报道（如江苏银行等）"
+    },
+    {
+      "name": "北京商报·财经新一线",
+      "tier": "T2",
+      "url": "https://mp.weixin.qq.com",
+      "note": "微信公众号：银行个贷条线一线观察"
+    },
+    {
+      "name": "浙商证券·李超宏观研究与资产配置",
+      "tier": "T2",
+      "url": "https://mp.weixin.qq.com",
+      "note": "微信公众号：信贷/社融等金融指标月度回顾"
+    },
+    {
+      "name": "奇富科技",
+      "tier": "T2",
+      "url": "https://mp.weixin.qq.com",
+      "note": "微信公众号：信贷智能体、银行智能化转型动态"
+    },
+    {
+      "name": "财经头条/乐居买房",
+      "tier": "T2",
+      "url": "https://cj.sina.com.cn",
+      "note": "不动产、住宅市场研究"
+    }
   ]
 }

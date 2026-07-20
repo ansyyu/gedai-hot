@@ -136,8 +136,10 @@ async function fetchBing() {
   for (const fn of adapters) {
     const got = await fn();
     console.log(`  ${fn.name}: ${got.length} 条`);
-    // 官方源(T1/T1.5)不做标题关键词过滤——由 AI 编辑判断相关性；T2 媒体源仍过滤
-    official.push(...got.filter((it) => (it.tier !== "T2" ? true : hit(it.title))));
+    // 官方源(T1/T1.5)不做标题关键词过滤——由 AI 编辑判断相关性；搜索/媒体条目仍过滤
+    official.push(
+      ...got.filter((it) => (it.tier === "T1" || it.tier === "T1.5" ? true : hit(it.title)))
+    );
   }
   const sina = await fetchSina();
   const bing = await fetchBing();

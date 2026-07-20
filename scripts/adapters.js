@@ -160,7 +160,48 @@ async function cnfin() {
   return items;
 }
 
-/* 证券时报、新华财经列表页为 JS 动态渲染，静态抓取不可用；
-   其稿件经新浪财经滚动流转载覆盖，不单独直采。 */
+/* ---------- T2 东方财富全网搜索（关键词搜索，按时间排序，覆盖各财经媒体） ---------- */
+// 使用 sources.json 各版块的 searchKeywords；返回条目的 source 为原始媒体名，
+// tier 留空由 AI 编辑按信源白名单判级。用于补充官方直采与新浪流之外的覆盖面（尤其周末）。
+async function emSearch() {
+  const fs = require("fs");
+  const path = require("path");
+  const sources = JSON.parse(
+    fs.readFileSync(path.join(__dirname, "..", "sources.json"), "utf8")
+  );
+  const items = [];
+  for (const cat of sources.categories) {
+    for (const kw of cat.searchKeywords || []) {
+      try {
+        const param = encodeURIComponent(
+          JSON.stringify({
+            uid: "", keyword: kw, type: ["cmsArticleWebOld"],
+            client: "web", clientVersion: "curr", clientType: "web",
+            param: { cmsArticleWebOld: { searchScope: "default", sort: "time", pageIndex: 1, pageSize: 12 } },
+          })
+        );
+        const txt = await get(`https://search-api-web.eastmoney.com/search/jsonp?cb=cb&param=${param}`);
+        const j = JSON.parse(txt.replace(/^cb\(/, "").replace(/\)$/, ""));
+        for (const a of j?.result?.cmsArticleWebOld || []) {
+          if (!a.title || !a.url) continue;
+          items.push({
+            title: strip(a.title),
+            url: a.url,
+            source: strip(a.mediaName) || "东方财富",
+            pubDate: new Date(a.date.replace(" ", "T") + "+08:00").toISOString(),
+            desc: strip(a.content || "").slice(0, 120),
+            categoryHint: cat.id,
+          });
+        }
+      } catch (e) {
+        console.error(`  ⚠ 东财搜索「${kw}」失败：${e.message}`);
+      }
+    }
+  }
+  return items;
+}
 
-module.exports = { adapters: [nfra, pbc, stats] };
+/* 证券时报、新华财经列表页为 JS 动态渲染，静态抓取不可用；
+   其稿件经新浪财经滚动流与东财搜索转载覆盖，不单独直采。 */
+
+module.exports = { adapters: [nfra, pbc, stats, emSearch] };
