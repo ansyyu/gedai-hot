@@ -26,8 +26,8 @@ const weekday = "星期" + "日一二三四五六"[bj.getUTCDay()];
 
 const items = collected.items.slice(0, 90); // 控制输入规模
 const DRY = process.env.DRY_RUN === "1";
-if (items.length < 2) {
-  console.log(`当日新资讯不足（${items.length} 条），不出刊，保持前一期。`);
+if (items.length < 1) {
+  console.log(`当日无新资讯（${items.length} 条），不出刊，保持前一期。`);
   process.exit(0);
 }
 if (!DRY && fs.existsSync(path.join(ARCHIVE_DIR, `${today}.json`))) {
@@ -158,7 +158,7 @@ function parseJson(text) {
       };
     }),
   };
-  if (report.items.length < 2) { console.error("有效条目不足2条，不出刊"); process.exit(0); }
+  if (report.items.length < 1) { console.error("无有效条目，不出刊"); process.exit(0); }
 
   if (DRY) {
     console.log("🧪 试运行（不写入文件），生成结果预览：");
