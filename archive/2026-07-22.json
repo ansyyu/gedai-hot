@@ -1,0 +1,128 @@
+{
+  "date": "2026-07-22",
+  "weekday": "星期三",
+  "focus": {
+    "title": "人民银行新增1000亿元支农支小再贷款额度 支持防汛救灾及灾后重建",
+    "summary": "为应对防汛救灾和灾后重建的金融需求，中国人民银行新增<b>1000亿元</b>支农支小再贷款额度，重点支持广西、湖北、甘肃、浙江等受灾地区的小微企业和农业主体。这一举措将为受灾地区提供重要的资金支持，助力恢复生产和稳定经济。"
+  },
+  "stats": [
+    {
+      "num": "1000",
+      "unit": "亿元",
+      "label": "新增支农支小再贷款额度"
+    },
+    {
+      "num": "5.19",
+      "unit": "亿元",
+      "label": "深铁集团向万科A提供的股东借款额度"
+    },
+    {
+      "num": "1.94",
+      "unit": "%",
+      "label": "人身保险预定利率研究值"
+    },
+    {
+      "num": "220",
+      "unit": "台",
+      "label": "中银航空租赁订购发动机数量"
+    }
+  ],
+  "items": [
+    {
+      "category": "macro",
+      "tier": "T1",
+      "source": "新浪财经",
+      "score": 9.5,
+      "title": "人民银行新增1000亿元支农支小再贷款额度 支持防汛救灾及灾后重建",
+      "url": "https://finance.sina.com.cn/jjxw/2026-07-21/doc-iniiqquv2419444.shtml",
+      "summary": "人民银行新增<b>1000亿元</b>支农支小再贷款额度，重点支持广西、湖北、甘肃、浙江等受灾地区的小微企业和农业主体，助力防汛救灾及灾后重建。",
+      "reason": "政策性再贷款调整直接影响小微企业和农业贷款供给，值得关注。",
+      "dateNote": "2026-07-21",
+      "links": []
+    },
+    {
+      "category": "risk",
+      "tier": "T2",
+      "source": "新浪财经",
+      "score": 8.7,
+      "title": "头部互联网银行催收外包“瘦身”，合规转型信号凸显",
+      "url": "https://finance.sina.com.cn/jjxw/2026-07-21/doc-iniiqquw9225183.shtml",
+      "summary": "微众银行在官网公示信贷业务第三方合作机构名单，显示其催收外包机构数量大幅减少，反映出头部互联网银行在合规转型上的新动向。",
+      "reason": "催收外包的调整是行业合规化的重要信号，值得关注。",
+      "dateNote": "2026-07-21",
+      "links": []
+    },
+    {
+      "category": "tech",
+      "tier": "T1.5",
+      "source": "新浪财经",
+      "score": 8.5,
+      "title": "工商银行落地全国首单DR基准利率贷款",
+      "url": "https://finance.sina.com.cn/money/bank/gsdt/2026-07-21/doc-iniiqkpe4952521.shtml",
+      "summary": "工商银行在海南自贸港成功落地全国首单DR（存款机构回购利率）基准利率贷款，标志着贷款定价基准体系的多元化发展迈出重要一步。",
+      "reason": "DR基准利率的应用可能影响未来贷款定价模式，需关注其推广进展。",
+      "dateNote": "2026-07-21",
+      "links": []
+    },
+    {
+      "category": "macro",
+      "tier": "T2",
+      "source": "新浪财经",
+      "score": 8.3,
+      "title": "防汛关键期，央行紧急出手！1000亿元支农支小再贷款驰援灾区",
+      "url": "https://finance.sina.com.cn/roll/2026-07-21/doc-iniiqkpa8205190.shtml",
+      "summary": "央行宣布新增<b>1000亿元</b>支农支小再贷款额度，重点支持广西、湖北、甘肃、浙江等受灾地区的经营主体，以应对严峻的防汛救灾形势。",
+      "reason": "与头条内容一致，选择更权威信源报道。",
+      "dateNote": "2026-07-21",
+      "links": []
+    },
+    {
+      "category": "macro",
+      "tier": "T1.5",
+      "source": "新浪财经",
+      "score": 8,
+      "title": "保险业协会：当前普通型人身保险产品预定利率研究值为1.94%",
+      "url": "https://finance.sina.com.cn/jryx/insurance/2026-07-21/doc-iniiqquy8089106.shtml",
+      "summary": "保险业协会发布数据显示，二季度普通型人身保险产品预定利率研究值环比上升<b>1BP</b>至<b>1.94%</b>，显示市场利率环境的微调趋势。",
+      "reason": "保险利率变化可能对信贷市场利率形成间接影响，值得关注。",
+      "dateNote": "2026-07-21",
+      "links": []
+    },
+    {
+      "category": "sme",
+      "tier": "T1",
+      "source": "新浪财经",
+      "score": 8,
+      "title": "中国人民银行新增支农支小再贷款额度1000亿元 支持部分地区防汛救灾及灾后重建",
+      "url": "https://finance.sina.com.cn/money/bank/2026-07-21/doc-iniiqknx2461527.shtml",
+      "summary": "为支持受灾地区的小微企业和农业主体，人民银行新增<b>1000亿元</b>支农支小再贷款额度，重点覆盖广西、湖北、甘肃、浙江等地。",
+      "reason": "直接影响小微企业贷款供给，尤其在灾后重建中意义重大。",
+      "dateNote": "2026-07-21",
+      "links": []
+    },
+    {
+      "category": "risk",
+      "tier": "T2",
+      "source": "新浪财经",
+      "score": 7.8,
+      "title": "封堵理财净值“平滑”通道！部分信托迎专项自查",
+      "url": "https://finance.sina.com.cn/jjxw/2026-07-21/doc-iniiqkpa8153486.shtml",
+      "summary": "地方监管部门要求部分信托公司自查利率债偏离交易情况，旨在整治理财净值“平滑”乱象，进一步规范市场行为。",
+      "reason": "信托行业的合规整顿可能波及信贷领域，需关注其影响。",
+      "dateNote": "2026-07-21",
+      "links": []
+    },
+    {
+      "category": "tech",
+      "tier": "T2",
+      "source": "新浪财经",
+      "score": 7.5,
+      "title": "中银航空租赁向RTX旗下普惠订购至多220台发动机",
+      "url": "https://finance.sina.com.cn/stock/relnews/hk/2026-07-21/doc-iniiqquw9198208.shtml",
+      "summary": "中银航空租赁宣布向RTX旗下普惠公司订购至多<b>220台</b>GTF发动机，用于为空客A320NEO系列飞机提供动力。",
+      "reason": "尽管非直接相关，但可能反映出融资租赁市场的活跃度。",
+      "dateNote": "2026-07-21",
+      "links": []
+    }
+  ]
+}

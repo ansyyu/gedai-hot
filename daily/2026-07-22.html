@@ -5,22 +5,22 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 <meta name="theme-color" content="#0d1117">
 <title>个贷HOT | 2026-07-22</title>
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="../style.css">
 </head>
 <body>
 
 <header>
   <div class="header-inner">
-    <a href="index.html" class="logo"><span class="flame">🔥</span>个贷<span>HOT</span></a>
+    <a href="../index.html" class="logo"><span class="flame">🔥</span>个贷<span>HOT</span></a>
     <div class="date-badge">2026-07-22 · 星期三</div>
-    <a class="archive-link" href="archive.html">📚</a>
+    <a class="archive-link" href="../archive.html">📚</a>
   </div>
   <div class="tabbar" id="tabbar"><button class="tab active" data-cat="all">全部<i>8</i></button><button class="tab" data-cat="macro">宏观<i>3</i></button><button class="tab empty" data-cat="mortgage" disabled>房贷<i>0</i></button><button class="tab" data-cat="sme">小微贷<i>1</i></button><button class="tab empty" data-cat="consumer" disabled>消费贷<i>0</i></button><button class="tab" data-cat="risk">风险<i>2</i></button><button class="tab" data-cat="tech">科技<i>2</i></button></div>
 </header>
 
 
   <div class="date-nav">
-    <a class="dbtn" href="daily/2026-07-21.html">‹ 前一天</a>
+    <a class="dbtn" href="2026-07-21.html">‹ 前一天</a>
     <select id="dateSel" class="date-sel"><option value="2026-07-22" selected>2026-07-22（最新）</option><option value="2026-07-21">2026-07-21</option><option value="2026-07-20">2026-07-20</option><option value="2026-07-18">2026-07-18</option><option value="2026-07-17">2026-07-17</option><option value="2026-07-16">2026-07-16</option></select>
     <span class="dbtn off">后一天 ›</span>
   </div>
@@ -33,7 +33,7 @@
     </div>
     <span class="player-time" id="playerTime">--:--</span>
     <button class="speed-btn" id="speedBtn">1x</button>
-    <audio id="audioEl" src="audio/2026-07-22.mp3" preload="none"></audio>
+    <audio id="audioEl" src="../audio/2026-07-22.mp3" preload="none"></audio>
   </div>
 <div class="focus">
   <div class="focus-card">
@@ -191,7 +191,7 @@
   sel.addEventListener('change', function(){
     var d = sel.value;
     if (d === "2026-07-22") return;
-    location.href = "daily/" + d + '.html';
+    location.href = "" + d + '.html';
   });
   // 播客播放器
   var audio = document.getElementById('audioEl');
