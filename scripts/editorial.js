@@ -154,8 +154,12 @@ ${list}
   const sel = await askModels(p1, (o) => {
     if (!Array.isArray(o.items) || !o.items.length) throw new Error("items 为空");
   });
+  const seenIdx = new Set();
   const picked = sel.items
-    .filter((s) => items[s.idx] && CATS.includes(s.category))
+    .filter(
+      (s) =>
+        items[s.idx] && CATS.includes(s.category) && !seenIdx.has(s.idx) && !!seenIdx.add(s.idx)
+    )
     .slice(0, 16);
   if (!picked.length) { console.error("无有效入选条目，不出刊"); process.exit(0); }
   console.log(`选题完成：${picked.length} 条，抓取正文中...`);
