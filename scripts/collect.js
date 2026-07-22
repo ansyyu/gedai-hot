@@ -3,7 +3,7 @@
  * 采集器 v2：
  *  源1（主）：新浪财经滚动新闻 API（真实链接+发布时间戳），按 matchKeywords 过滤个贷相关
  *  源2（辅）：Bing News RSS 按版块关键词搜索（本地代理环境可能不可用，失败自动跳过）
- * 严格过滤最近 48 小时 + 对照 data/seen.json 去重，输出 data/collected.json。
+ * 按 MAX_AGE_HOURS 时间窗过滤 + 对照 data/seen.json（仅含已刊出条目）去重，输出 data/collected.json。
  * 本地测试：NODE_USE_ENV_PROXY=1 HTTPS_PROXY=http://127.0.0.1:7890 node scripts/collect.js
  */
 const fs = require("fs");
@@ -14,10 +14,10 @@ const DATA_DIR = path.join(ROOT, "data");
 const SEEN_FILE = path.join(DATA_DIR, "seen.json");
 const OUT_FILE = path.join(DATA_DIR, "collected.json");
 
-const MAX_AGE_HOURS = 48;
+const MAX_AGE_HOURS = 120; // 5天窗口：兼顾丰富度与时效（远低于1个月底线）
 // 新浪滚动频道：2509=财经全部（高频更新，配合 matchKeywords 本地过滤；抓12页≈600条覆盖48小时）
 const SINA_CHANNELS = [
-  { lid: 2509, pages: 12 },
+  { lid: 2509, pages: 20 },
 ];
 
 const sources = JSON.parse(fs.readFileSync(path.join(ROOT, "sources.json"), "utf8"));
@@ -170,6 +170,6 @@ async function fetchBing() {
     "utf8"
   );
   console.log(
-    `✅ 采集完成：48小时内且未收录 ${items.length} 条（过期 ${tooOld}、已收录 ${dup}）→ data/collected.json`
+    `✅ 采集完成：${MAX_AGE_HOURS}小时窗口内未刊出 ${items.length} 条（过期 ${tooOld}、已收录 ${dup}）→ data/collected.json`
   );
 })();
