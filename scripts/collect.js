@@ -138,7 +138,7 @@ async function fetchBing() {
     console.log(`  ${fn.name}: ${got.length} 条`);
     // 官方源(T1/T1.5)不做标题关键词过滤——由 AI 编辑判断相关性；搜索/媒体条目仍过滤
     official.push(
-      ...got.filter((it) => (it.tier === "T1" || it.tier === "T1.5" ? true : hit(it.title)))
+      ...got.filter((it) => it.tier === "T1" || it.tier === "T1.5" ? !EXCLUDE.some((k) => it.title.includes(k)) : hit(it.title))
     );
   }
   const sina = await fetchSina();
