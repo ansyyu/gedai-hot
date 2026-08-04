@@ -16,7 +16,20 @@ const ARCHIVE_DIR = path.join(ROOT, "archive");
 const SEEN_FILE = path.join(DATA_DIR, "seen.json");
 const SEEN_KEEP_DAYS = 30;
 
-const MODELS = ["deepseek/DeepSeek-V3-0324", "openai/gpt-4o", "openai/gpt-4o-mini"];
+// 多供应商配置：按环境变量自动启用（GitHub Models 已于2026-07-30退役）
+function getProviders() {
+  const p = [];
+  if (process.env.ZHIPU_API_KEY)
+    p.push({ name: '智谱', url: 'https://open.bigmodel.cn/api/paas/v4/chat/completions',
+      key: process.env.ZHIPU_API_KEY, models: ['glm-4-flash', 'glm-4-air'] });
+  if (process.env.DEEPSEEK_API_KEY)
+    p.push({ name: 'DeepSeek', url: 'https://api.deepseek.com/chat/completions',
+      key: process.env.DEEPSEEK_API_KEY, models: ['deepseek-chat'] });
+  if (process.env.OPENROUTER_API_KEY)
+    p.push({ name: 'OpenRouter', url: 'https://openrouter.ai/api/v1/chat/completions',
+      key: process.env.OPENROUTER_API_KEY, models: ['deepseek/deepseek-chat:free'] });
+  return p;
+}
 const CATS = ["macro", "mortgage", "sme", "consumer", "risk", "tech"];
 const UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/120";
 
@@ -48,12 +61,12 @@ const prevTitles = fs
   );
 
 /* ---------- 模型调用 ---------- */
-async function callModel(model, prompt) {
-  const res = await fetch("https://models.github.ai/inference/chat/completions", {
+async function callModel(provider, model, prompt) {
+  const res = await fetch(provider.url, {
     method: "POST",
     signal: AbortSignal.timeout(150000),
     headers: {
-      Authorization: `Bearer ${process.env.GITHUB_TOKEN}`,
+      Authorization: `Bearer ${provider.key}`,
       "Content-Type": "application/json",
     },
     body: JSON.stringify({
@@ -63,7 +76,7 @@ async function callModel(model, prompt) {
       max_tokens: 7000,
     }),
   });
-  if (!res.ok) throw new Error(`${model} HTTP ${res.status}: ${(await res.text()).slice(0, 200)}`);
+  if (!res.ok) throw new Error(`${provider.name}/${model} HTTP ${res.status}: ${(await res.text()).slice(0, 200)}`);
   return (await res.json()).choices[0].message.content;
 }
 function parseJson(text) {
@@ -73,19 +86,21 @@ function parseJson(text) {
 }
 async function askModels(prompt, validate) {
   let lastErr = null;
-  for (const model of MODELS) {
-    try {
-      console.log(`调用模型 ${model} ...`);
-      const out = parseJson(await callModel(model, prompt));
-      validate(out);
-      console.log(`✓ ${model} 返回有效`);
-      return out;
-    } catch (e) {
-      lastErr = e;
-      console.error(`✗ ${e.message.slice(0, 160)}`);
+  for (const provider of getProviders()) {
+    for (const model of provider.models) {
+      try {
+        console.log(`调用模型 ${provider.name}/${model} ...`);
+        const out = parseJson(await callModel(provider, model, prompt));
+        validate(out);
+        console.log(`✓ ${provider.name}/${model} 返回有效`);
+        return out;
+      } catch (e) {
+        lastErr = e;
+        console.error(`✗ ${e.message.slice(0, 160)}`);
+      }
     }
   }
-  throw lastErr;
+  throw lastErr || new Error("没有可用的模型供应商");
 }
 
 /* ---------- 正文抓取 ---------- */
@@ -113,7 +128,10 @@ async function fetchArticleText(url) {
 }
 
 (async () => {
-  if (!process.env.GITHUB_TOKEN) { console.error("缺少 GITHUB_TOKEN"); process.exit(1); }
+  if (!getProviders().length) {
+    console.error("未配置任何模型供应商：请在仓库 Secrets 中设置 ZHIPU_API_KEY（或 DEEPSEEK_API_KEY / OPENROUTER_API_KEY）");
+    process.exit(1);
+  }
 
   /* ===== 第一段：选题 ===== */
   const catDesc = sources.categories.map((c) => `- ${c.id}（${c.name}）：${c.desc}`).join("\n");

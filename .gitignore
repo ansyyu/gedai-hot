@@ -2,3 +2,7 @@ node_modules/
 .claude/
 data/collected.json
 data/podcast.txt
+*.zip
+*.docx
+*.xlsx
+*.pdf

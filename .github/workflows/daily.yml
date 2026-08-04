@@ -15,7 +15,6 @@ on:
 
 permissions:
   contents: write
-  models: read
 
 concurrency:
   group: daily-report
@@ -36,7 +35,9 @@ jobs:
 
       - name: AI 编辑生成今日日报
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ZHIPU_API_KEY: ${{ secrets.ZHIPU_API_KEY }}
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
           DRY_RUN: ${{ inputs.dryrun }}
         run: node scripts/editorial.js
 
