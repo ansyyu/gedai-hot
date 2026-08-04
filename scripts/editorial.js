@@ -21,7 +21,7 @@ function getProviders() {
   const p = [];
   if (process.env.ZHIPU_API_KEY)
     p.push({ name: '智谱', url: 'https://open.bigmodel.cn/api/paas/v4/chat/completions',
-      key: process.env.ZHIPU_API_KEY, models: ['glm-4-flash', 'glm-4-air'] });
+      key: process.env.ZHIPU_API_KEY, models: ['glm-4.5-flash', 'glm-4-flash-250414', 'glm-4-flash'] });
   if (process.env.DEEPSEEK_API_KEY)
     p.push({ name: 'DeepSeek', url: 'https://api.deepseek.com/chat/completions',
       key: process.env.DEEPSEEK_API_KEY, models: ['deepseek-chat'] });
@@ -159,8 +159,8 @@ ${prevTitles.map((t) => "- " + t).join("\n")}
 ${list}
 
 ## 选题要求
-1. 目标 8-16 条，宁缺毋滥：相关候选不足时可以少选，严禁为凑数重复选择同一序号或收录无关内容。与个人贷款无关的坚决不选（如企业借款、保险产品定价、股市行情、国际新闻）。
-2. 同一事件多条报道只选一条最权威的（官方>准官方>媒体）。
+1. 目标 8-16 条，宁缺毋滥：相关候选不足时可以少选，严禁为凑数重复选择同一序号或收录无关内容。与个人贷款无关的坚决不选（如企业借款、保险产品定价、股市行情、国际新闻、生产资料价格等不涉及信贷的宏观统计数据）。
+2. 【最重要】同一事件只能选一条：同一政策的多篇解读、同一数据的多家报道、同一文件在不同官网的转发，都属于同一事件，必须只保留最权威的一条（官方>准官方>媒体）。例如"某新规施行"的官方原文、媒体解读A、媒体解读B三条候选，只选官方原文一条。
 3. risk 版块子题多样性：逾期/资产质量、欺诈骗贷、催收乱象、借款人权益、合规处罚都算——"罚单/处罚"类每期最多 2 条，其他风险子题优先保留。
 4. 发布日期较新的优先；同分时选信息量大的。
 5. score 为 7.0-10.0 一位小数（时效/权威/业务相关/影响面/可操作五维综合）。
@@ -173,13 +173,40 @@ ${list}
     if (!Array.isArray(o.items) || !o.items.length) throw new Error("items 为空");
   });
   const seenIdx = new Set();
-  const picked = sel.items
+  let picked = sel.items
     .filter(
       (s) =>
         items[s.idx] && CATS.includes(s.category) && !seenIdx.has(s.idx) && !!seenIdx.add(s.idx)
     )
     .slice(0, 16);
   if (!picked.length) { console.error("无有效入选条目，不出刊"); process.exit(0); }
+
+  /* ===== 同事件合并校验（防止同一事件的多篇报道重复入选） ===== */
+  if (picked.length > 1) {
+    try {
+      const titleList = picked.map((s) => `[${s.idx}] ${items[s.idx].title}`).join("\n");
+      const g = await askModels(
+        `下面是今日入选的新闻标题。找出【报道同一事件】的条目分组（同一政策/同一数据发布/同一公司动态的不同报道算同一事件；仅主题相近但事件不同的不算）。\n${titleList}\n\n只输出JSON：{"groups":[[序号,序号,...],...]}；没有重复事件则输出 {"groups":[]}`,
+        (o) => { if (!Array.isArray(o.groups)) throw new Error("groups 缺失"); }
+      );
+      const tierRank = { T1: 0, "T1.5": 1, T2: 2 };
+      for (const grp of g.groups) {
+        const members = picked.filter((s) => grp.includes(s.idx));
+        if (members.length < 2) continue;
+        const best = [...members].sort(
+          (a, b) =>
+            (tierRank[items[a.idx].tier] ?? 3) - (tierRank[items[b.idx].tier] ?? 3) ||
+            (Number(b.score) || 0) - (Number(a.score) || 0)
+        )[0];
+        for (const m of members) if (m !== best) m.drop = true;
+      }
+      const before = picked.length;
+      picked = picked.filter((s) => !s.drop);
+      if (before !== picked.length) console.log(`同事件合并：${before} → ${picked.length} 条`);
+    } catch (e) {
+      console.error("同事件校验失败，跳过：" + e.message.slice(0, 80));
+    }
+  }
   console.log(`选题完成：${picked.length} 条，抓取正文中...`);
 
   /* ===== 抓取入选文章正文 ===== */
@@ -202,7 +229,7 @@ ${list}
 ${articles}
 
 ## 撰写要求
-1. 每篇：title（在原标题基础上可优化，突出关键数字/结论，≤40字）、summary（120-160字，必须基于正文，把正文中最有价值的数字和结论写进去，关键数字用<b></b>包裹）、reason（一句话，站在个贷从业者视角说为什么值得看/怎么用）。
+1. 每篇：title（在原标题基础上可优化，突出关键数字/结论，≤40字）、summary（120-160字，必须基于正文，把正文中最有价值的数字和结论写进去，关键数字用<b></b>包裹）、reason（一句话，站在个贷从业者视角说清具体启示或用法，禁止"了解…""为…提供参考"这类空话）。
 2. focusSummary：基于头条文章正文写 100-160 字导语。
 3. stats：4 个数字指标（num/unit/label），必须取自各篇正文中真实出现的数字，优先规模/利率/增速类。
 4. 铁律：所有数字、机构名、政策细节必须来自上面提供的正文，严禁引入外部信息或编造；某篇正文抓取失败的，摘要从简，不得虚构细节。

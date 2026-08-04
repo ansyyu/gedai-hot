@@ -155,14 +155,33 @@ async function fetchBing() {
     if (seen.urls[it.url] || seen.fps[fingerprint(it.title)]) { dup++; continue; }
     if (!byUrl.has(it.url)) byUrl.set(it.url, { ...it, ageHours: Math.round(ageH) });
   }
-  // 同题去重：保留最早发布
-  const byFp = new Map();
-  for (const it of byUrl.values()) {
-    const fp = fingerprint(it.title);
-    const prev = byFp.get(fp);
-    if (!prev || Date.parse(it.pubDate) < Date.parse(prev.pubDate)) byFp.set(fp, it);
+  // 同题/同事件去重：标题二元组相似度聚簇（阈值0.5），
+  // 权威度高者优先保留（T1 > T1.5 > 其他），同级保留最早发布
+  const bigrams = (t) => {
+    const s = String(t).replace(/[^一-龥A-Za-z0-9]/g, "");
+    const set = new Set();
+    for (let i = 0; i < s.length - 1; i++) set.add(s.slice(i, i + 2));
+    return set;
+  };
+  const sim = (a, b) => {
+    let inter = 0;
+    for (const x of a) if (b.has(x)) inter++;
+    return inter / (a.size + b.size - inter || 1);
+  };
+  const tierRank = { T1: 0, "T1.5": 1, T2: 2 };
+  const cands = [...byUrl.values()]
+    .map((it) => ({ it, bg: bigrams(it.title) }))
+    .sort(
+      (x, y) =>
+        (tierRank[x.it.tier] ?? 3) - (tierRank[y.it.tier] ?? 3) ||
+        Date.parse(x.it.pubDate) - Date.parse(y.it.pubDate)
+    );
+  const kept = [];
+  for (const c of cands) {
+    if (kept.some((k) => sim(k.bg, c.bg) >= 0.5)) { dup++; continue; }
+    kept.push(c);
   }
-  const items = [...byFp.values()].sort((a, b) => Date.parse(b.pubDate) - Date.parse(a.pubDate));
+  const items = kept.map((k) => k.it).sort((a, b) => Date.parse(b.pubDate) - Date.parse(a.pubDate));
 
   fs.writeFileSync(
     OUT_FILE,
