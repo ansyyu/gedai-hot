@@ -1,0 +1,116 @@
+{
+  "date": "2026-08-06",
+  "weekday": "星期四",
+  "focus": {
+    "title": "成都银行西部首单DR贷款700万",
+    "summary": "成都银行成功落地西部地区法人机构首笔DR基准利率企业贷款，向某经营主体发放700万元流动资金贷款，期限2年，以DR001为定价基准。这标志着DR贷款定价机制从东部向西部扩散，应用范围不断扩大，但短期内可能对银行息差形成压力，长期有助于精准定价和息差修复。"
+  },
+  "stats": [
+    {
+      "num": "1800",
+      "unit": "件",
+      "label": "发明专利数量"
+    },
+    {
+      "num": "36800",
+      "unit": "元",
+      "label": "公积金基数上限"
+    },
+    {
+      "num": "700",
+      "unit": "万元",
+      "label": "DR贷款金额"
+    },
+    {
+      "num": "2.7",
+      "unit": "%",
+      "label": "房贷最低利率"
+    }
+  ],
+  "items": [
+    {
+      "category": "sme",
+      "tier": "T2",
+      "source": "新浪财经",
+      "score": 8.5,
+      "title": "助贷资金供给恢复难回高峰",
+      "url": "https://finance.sina.com.cn/roll/2026-08-05/doc-inimhpmz5114610.shtml",
+      "summary": "多家助贷机构在<b>7月底</b>重获银行资金供给，但业内表示<b>难以恢复此前高峰</b>。恢复额度和范围远不及水平，部分资方因<b>8月1日</b>实施的个贷息费明示新规而观望。行业风险加速出清，机构拓展海外业务，但<b>海外市场体量天花板显著低于国内</b>。",
+      "reason": "助贷机构需加强合规管理，探索海外或科技中收模式以应对资金收紧。",
+      "dateNote": "2026-08-05",
+      "links": []
+    },
+    {
+      "category": "consumer",
+      "tier": "T2",
+      "source": "新浪财经",
+      "score": 7.5,
+      "title": "蒋宁上任马上消费金融，专利超1800项",
+      "url": "https://finance.sina.com.cn/jryx/bank/2026-08-05/doc-inimhpni1246832.shtml",
+      "summary": "蒋宁获批担任马上消费金融董事、副董事长、总经理。他带领团队申请<b>1800多件</b>发明专利，其中<b>人工智能领域专利超1500项</b>，在重庆金融领域专利数量前列。蒋宁曾就金融科技伦理等议题发表观点。",
+      "reason": "个贷从业者可借鉴其科技投入，提升风控能力。",
+      "dateNote": "2026-08-05",
+      "links": []
+    },
+    {
+      "category": "mortgage",
+      "tier": "T2",
+      "source": "新浪财经",
+      "score": 8,
+      "title": "无锡公积金基数上限36800元",
+      "url": "https://finance.sina.com.cn/stock/estate/integration/2026-08-05/doc-inimhawf5236797.shtml",
+      "summary": "无锡市住房公积金管理中心发布通知，<b>2026年7月1日起</b>，市区职工住房公积金缴存基数最高限额调整为<b>36800元</b>，最低限额按最低工资标准。单位可在<b>5%-12%</b>之间自主确定缴存比例，单位与职工比例必须相同。",
+      "reason": "个贷从业者需关注公积金政策变化，影响客户贷款能力。",
+      "dateNote": "2026-08-05",
+      "links": []
+    },
+    {
+      "category": "macro",
+      "tier": "T1.5",
+      "source": "新浪财经",
+      "score": 9,
+      "title": "成都银行西部首单DR贷款700万",
+      "url": "https://finance.sina.com.cn/roll/2026-08-05/doc-inimhawf5214702.shtml",
+      "summary": "成都银行落地西部地区法人机构首笔<b>DR基准利率企业贷款</b>，向某经营主体发放<b>700万元</b>流动资金贷款，期限<b>2年</b>，以DR001为定价基准。DR贷款应用范围不断扩大，但<b>DR001显著低于1年期LPR的3.0%</b>，短期或对银行息差形成压力，长期有利精准定价。",
+      "reason": "个贷从业者需关注DR定价趋势，优化贷款产品设计。",
+      "dateNote": "2026-08-05",
+      "links": []
+    },
+    {
+      "category": "mortgage",
+      "tier": "T2",
+      "source": "新浪财经",
+      "score": 8.5,
+      "title": "广州房贷利率最低2.7%",
+      "url": "https://finance.sina.com.cn/roll/2026-08-05/doc-inimhawm4597138.shtml",
+      "summary": "汇丰银行广州分行住房贷款利率最低可至<b>2.7%</b>（LPR减<b>0.8%</b>），仅针对资质过硬购房者。广州主流利率<b>3%</b>，公积金利率<b>2.6%</b>。分析人士称此为针对特定人群的“价格战”，广州房价连续四个月上涨。",
+      "reason": "个贷从业者可借鉴分层定价策略，吸引优质客户。",
+      "dateNote": "2026-08-05",
+      "links": []
+    },
+    {
+      "category": "risk",
+      "tier": "T2",
+      "source": "新浪财经",
+      "score": 8,
+      "title": "担保贷款日期篡改，银行过错",
+      "url": "https://finance.sina.com.cn/money/bank/gsdt/2026-08-05/doc-inimfwqi5260631.shtml",
+      "summary": "男子李吉辰担保贷款申请表被篡改，<b>12个月</b>期限改为<b>36个月</b>，无其签字确认。银行称工作人员个人出错，律师认为银行存在明显过错，合同可能无效。建议当事人组织新证据向法院申请再审。",
+      "reason": "个贷从业者需加强合同管理，避免类似纠纷。",
+      "dateNote": "2026-08-05",
+      "links": []
+    },
+    {
+      "category": "macro",
+      "tier": "T1",
+      "source": "金融监管总局·政策法规",
+      "score": 9,
+      "title": "金融监管总局召开帮扶会议",
+      "url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1266796&itemId=915",
+      "summary": "金融监管总局召开定点帮扶工作领导小组会议，具体内容未提供。",
+      "reason": "个贷从业者关注政策动向，但无具体启示。",
+      "dateNote": "2026-08-04",
+      "links": []
+    }
+  ]
+}
