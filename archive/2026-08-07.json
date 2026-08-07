@@ -1,0 +1,128 @@
+{
+  "date": "2026-08-07",
+  "weekday": "星期五",
+  "focus": {
+    "title": "个贷新规：利率明示6%-24%",
+    "summary": "《个人贷款综合融资成本明示管理规定》8月1日正式施行，要求商业银行、消费金融公司等贷款机构向借款人明示综合融资成本。37家A股上市银行公布年化利率上限，国有大行设为<b>6%</b>，部分银行达<b>24%</b>，合作业务更高。此举旨在破解信息差营销乱象，保障消费者权益，推动行业透明化发展。"
+  },
+  "stats": [
+    {
+      "num": "280",
+      "unit": "万亿",
+      "label": "贷款余额"
+    },
+    {
+      "num": "1.40",
+      "unit": "%",
+      "label": "银行净息差"
+    },
+    {
+      "num": "29.14",
+      "unit": "%",
+      "label": "新能源汽车贷款增速"
+    },
+    {
+      "num": "7.4",
+      "unit": "%",
+      "label": "社融增速"
+    }
+  ],
+  "items": [
+    {
+      "category": "macro",
+      "tier": "T2",
+      "source": "新浪财经",
+      "score": 8.5,
+      "title": "DR贷款崛起：银行K型分化加速",
+      "url": "https://finance.sina.com.cn/money/bank/bank_hydt/2026-08-07/doc-inimmyem4126911.shtml",
+      "summary": "工行、招行、浦发发放<b>9170万</b>DR贷款，锚定DR利率而非LPR。LPR连续19个月不变，银行净息差降至<b>1.40%</b>历史新低。贷款占社融增量降至<b>45%</b>，直接融资占比达<b>47%</b>，导致LPR失灵。DR贷款因真实、快速、纯市场化优势，在大型企业中推广。",
+      "reason": "个贷从业者需关注DR贷款模式，为大型企业客户提供灵活融资方案。",
+      "dateNote": "2026-08-07",
+      "links": []
+    },
+    {
+      "category": "tech",
+      "tier": "T2",
+      "source": "新浪财经",
+      "score": 9,
+      "title": "科技金融数据共享：26指标赋能企业",
+      "url": "https://finance.sina.com.cn/money/bank/bank_hydt/2026-08-07/doc-inimmyet0062789.shtml",
+      "summary": "央行等九部门联合印发通知，加强科技金融数据开发利用，聚焦融资对接、智能风控等。提供<b>8大类</b>、<b>26个</b>数据指标，支持市场化征信机构建设科技型企业数据库，引导金融机构构建数字信用画像。",
+      "reason": "个贷从业者应利用科技数据，优化风控模型，提升科技企业贷款效率。",
+      "dateNote": "2026-08-07",
+      "links": []
+    },
+    {
+      "category": "mortgage",
+      "tier": "T2",
+      "source": "新浪财经",
+      "score": 8,
+      "title": "房贷利率破2.8%：银行设资质门槛",
+      "url": "https://finance.sina.com.cn/stock/estate/integration/2026-08-07/doc-inimmtwp4202202.shtml",
+      "summary": "部分外资银行房贷利率低至<b>2.76%</b>，但设置客户资质和合作渠道门槛（如仅贝壳系中介）。多数银行利率不低于<b>3.0%</b>，地方政府推出贴息政策（南京<b>1%</b>、泰州<b>2%</b>），降低购房者负担。",
+      "reason": "个贷从业者需关注渠道绑定策略，为合作楼盘客户提供专属优惠。",
+      "dateNote": "2026-08-06",
+      "links": []
+    },
+    {
+      "category": "consumer",
+      "tier": "T2",
+      "source": "新浪财经",
+      "score": 7.5,
+      "title": "小米YU7首付4.99万：轻松还方案",
+      "url": "https://finance.sina.com.cn/stock/t/2026-08-06/doc-inimkwtf0535986.shtml",
+      "summary": "小米汽车公布YU7 8月购车权益，首付<b>4.99万</b>起。小米SU7和YU7累计交付<b>70万辆</b>，推出“轻松还”金融方案，吸引消费者。",
+      "reason": "个贷从业者可借鉴汽车金融方案，设计灵活首付产品。",
+      "dateNote": "2026-08-06",
+      "links": []
+    },
+    {
+      "category": "macro",
+      "tier": "T2",
+      "source": "新浪财经",
+      "score": 7.5,
+      "title": "中小银行存款利率上调：幅度30BP",
+      "url": "https://finance.sina.com.cn/roll/2026-08-06/doc-inimksmi0607476.shtml",
+      "summary": "湖北、广东多家中小银行罕见上调存款利率，最高幅度达<b>33BP</b>。浙江部分银行降息<b>20BP</b>，显示区域分化。中小银行为吸收存款，自行调整利率。",
+      "reason": "个贷从业者需关注存款利率变化，调整贷款定价策略。",
+      "dateNote": "2026-08-06",
+      "links": []
+    },
+    {
+      "category": "risk",
+      "tier": "T2",
+      "source": "新浪财经",
+      "score": 8,
+      "title": "监管整治汽车金融：剑指高息高返",
+      "url": "https://finance.sina.com.cn/stock/zqgd/2026-08-06/doc-inimkskx2925635.shtml",
+      "summary": "华东金融监管局整治汽车金融乱象，禁止“高息高返”、“零首付”等行为。24家汽车金融公司资产规模<b>9144.48亿元</b>，新能源汽车贷款增长<b>29.14%</b>，零售客户超<b>4500万</b>。",
+      "reason": "个贷从业者应合规经营，避免诱导营销，确保息费透明。",
+      "dateNote": "2026-08-06",
+      "links": []
+    },
+    {
+      "category": "consumer",
+      "tier": "T2",
+      "source": "新浪财经",
+      "score": 9,
+      "title": "个贷新规：利率明示6%-24%",
+      "url": "https://finance.sina.com.cn/stock/relnews/hk/2026-08-06/doc-inimknaz2988125.shtml",
+      "summary": "《个人贷款综合融资成本明示管理规定》8月1日实施，要求银行明示成本。<b>37家</b>A股上市银行公布上限，国有大行设为<b>6%</b>，部分银行达<b>24%</b>，合作业务更高。",
+      "reason": "个贷从业者需严格执行新规，明示综合融资成本，提升透明度。",
+      "dateNote": "2026-08-06",
+      "links": []
+    },
+    {
+      "category": "macro",
+      "tier": "T1",
+      "source": "央行·沟通交流",
+      "score": 8.5,
+      "title": "央行会议：社融增7.4%",
+      "url": "http://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026080209562668921/index.html",
+      "summary": "央行召开下半年会议，实施适度宽松货币政策，社融增速<b>7.4%</b>，M2增速<b>8.0%</b>。金融五篇大文章贷款增<b>11%</b>，科技创新债券发行超<b>2.8万亿元</b>。",
+      "reason": "个贷从业者应紧跟央行政策，支持重点领域贷款。",
+      "dateNote": "2026-08-02",
+      "links": []
+    }
+  ]
+}
