@@ -1,0 +1,104 @@
+{
+  "date": "2026-08-12",
+  "weekday": "星期三",
+  "focus": {
+    "title": "多家银行调整存款利率，中小行上调或下调",
+    "summary": "DR基准利率贷款在全国16省落地，打破单一锚定LPR模式，开启贷款定价双锚时代。首单贷款金额达9170万元，采用DR001均值加点164.32BP定价，DR001中枢1.35%-1.45%显著低于LPR 3.00%，提升融资精准度与市场适配性，服务实体经济领域。"
+  },
+  "stats": [
+    {
+      "num": "16",
+      "unit": "省",
+      "label": "DR贷款覆盖省份"
+    },
+    {
+      "num": "9170",
+      "unit": "万元",
+      "label": "首单贷款金额"
+    },
+    {
+      "num": "1.35-1.45",
+      "unit": "%",
+      "label": "DR001中枢"
+    },
+    {
+      "num": "3.00",
+      "unit": "%",
+      "label": "1年期LPR"
+    }
+  ],
+  "items": [
+    {
+      "category": "consumer",
+      "tier": "T1.5",
+      "source": "新浪财经",
+      "score": 8,
+      "title": "晋商消金注册资本达10亿，仅剩2家未达标",
+      "url": "https://finance.sina.com.cn/jjxw/2026-08-11/doc-inimyaaf7410513.shtml",
+      "summary": "晋商消费金融增资<b>5亿元</b>，注册资本从<b>5亿</b>变更为<b>10亿</b>，仅剩蒙商、盛银<b>2家</b>未达标。增资后晋商银行持股比例增至<b>70%</b>，其他股东稀释。分析人士指出，尾部机构生存困境凸显，增资提升风控效率。",
+      "reason": "个贷从业者应关注消金公司增资合规趋势，优化股东结构以提升风控效率。",
+      "dateNote": "2026-08-11",
+      "links": []
+    },
+    {
+      "category": "risk",
+      "tier": "T2",
+      "source": "新浪财经",
+      "score": 8.5,
+      "title": "5年期大额存单利率1.85%封顶，银行重启发行",
+      "url": "https://finance.sina.com.cn/roll/2026-08-11/doc-inimyaac0612975.shtml",
+      "summary": "走访<b>10余家</b>银行，5年期大额存单利率<b>1.85%</b>封顶。国有大行<b>1.6%</b>，股份制银行<b>1.75%-1.85%</b>。重启是为承接到期存款，规模<b>75万亿</b>，缓释久期错配压力。",
+      "reason": "个贷从业者需关注银行负债策略变化，优化存款产品以吸引客户。",
+      "dateNote": "2026-08-11",
+      "links": []
+    },
+    {
+      "category": "macro",
+      "tier": "T2",
+      "source": "新浪财经",
+      "score": 9,
+      "title": "多家银行调整存款利率，中小行上调或下调",
+      "url": "https://finance.sina.com.cn/roll/2026-08-11/doc-inimyaai4179149.shtml",
+      "summary": "湖北、广东等地中小银行上调中长期存款利率，如湖北监利农商行3年期<b>1.75%</b>。浙江等地下调<b>5-15基点</b>。净息差<b>1.40%</b>，稳息差是主流，存款利率温和下行。",
+      "reason": "个贷从业者应监控存款利率波动，调整负债成本以维持息差稳定。",
+      "dateNote": "2026-08-11",
+      "links": []
+    },
+    {
+      "category": "macro",
+      "tier": "T2",
+      "source": "新浪财经",
+      "score": 7.5,
+      "title": "走访10余家银行：5年期大额存单利率1.85%封顶",
+      "url": "https://finance.sina.com.cn/money/bank/bank_hydt/2026-08-11/doc-inimyaai4163240.shtml",
+      "summary": "来源：财经五月花 摘 要 预计下半年行业负债策略的分化格局将延续。大行5年期大额存单大概率维持限额滚动发行，不会全面放开；中小银行局部加息不具备持续性...",
+      "reason": "",
+      "dateNote": "2026-08-11",
+      "links": []
+    },
+    {
+      "category": "macro",
+      "tier": "T1.5",
+      "source": "新浪财经",
+      "score": 8.5,
+      "title": "多家银行“官宣”调整存款利率",
+      "url": "https://finance.sina.com.cn/money/bank/bank_hydt/2026-08-11/doc-inimxvuf0656419.shtml",
+      "summary": "来源：中国银行保险报 近期，湖北、广东等地中小银行“逆势”上调存款利率，叠加四大行重启5年期大额存单发行，受到市场关注。 近年来，各家银行加强负债成本管控...",
+      "reason": "",
+      "dateNote": "2026-08-11",
+      "links": []
+    },
+    {
+      "category": "tech",
+      "tier": "T1.5",
+      "source": "新浪财经",
+      "score": 8,
+      "title": "中国互联网金融协会召开互联网助贷业务规范发展座谈会",
+      "url": "https://finance.sina.com.cn/money/bank/bank_hydt/2026-08-11/doc-inimxvun5828723.shtml",
+      "summary": "来源：中国互联网金融协会 8月10-11日，中国互联网金融协会在上海组织召开互联网助贷业务规范发展座谈会。协会党委书记、秘书长马超同志出席会议，来自商业银行...",
+      "reason": "",
+      "dateNote": "2026-08-11",
+      "links": []
+    }
+  ]
+}
