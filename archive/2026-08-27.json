@@ -1,0 +1,140 @@
+{
+  "date": "2026-08-27",
+  "weekday": "星期四",
+  "focus": {
+    "title": "六大行贴息细则落地，上限7500万",
+    "summary": "六大国有银行集体发布中小微企业贷款贴息细则，中央财政对流动资金贷款年化贴息<b>1%</b>，固定资产贷款<b>1.5%</b>，单户企业贴息上限<b>7500万元</b>，经办机构扩容至<b>400家</b>，覆盖更多经营主体，助力内需增长。"
+  },
+  "stats": [
+    {
+      "num": "1",
+      "unit": "%",
+      "label": "流动资金贷款贴息率"
+    },
+    {
+      "num": "1.5",
+      "unit": "%",
+      "label": "固定资产贷款贴息率"
+    },
+    {
+      "num": "7500",
+      "unit": "万元",
+      "label": "单户企业贴息上限"
+    },
+    {
+      "num": "400",
+      "unit": "家",
+      "label": "经办机构数量"
+    }
+  ],
+  "items": [
+    {
+      "category": "risk",
+      "tier": "T2",
+      "source": "新浪财经",
+      "score": 8.5,
+      "title": "中银消金净利润翻倍，不良加速出清",
+      "url": "https://finance.sina.com.cn/roll/2026-08-26/doc-inipsezp5976550.shtml",
+      "summary": "首批消金半年报出炉，中银消金净利润<b>2.99亿元</b>同比增近一倍，资产规模缩水；不良贷款转让加速，中银消金单期转让未偿本息超<b>16亿元</b>，加权平均逾期天数低于<b>1000天</b>，行业早转快出趋势明显。",
+      "reason": "个贷从业者需强化不良资产处置机制，优化贷后管理。",
+      "dateNote": "2026-08-26",
+      "links": []
+    },
+    {
+      "category": "tech",
+      "tier": "T2",
+      "source": "新浪财经",
+      "score": 7,
+      "title": "Qwen3.8-Flash训练成本降90%，推理价1元",
+      "url": "https://finance.sina.com.cn/stock/relnews/hk/2026-08-26/doc-inipsezr5946602.shtml",
+      "summary": "阿里发布Qwen3.8-Flash模型，训练成本较前代骤降<b>90%</b>，推理成本每百万Tokens输入<b>1元</b>、输出<b>3元</b>，性能超越Claude Opus4.6，多模态能力显著提升，性价比全球领先。",
+      "reason": "个贷从业者可利用低成本AI模型提升风控和客户服务效率。",
+      "dateNote": "2026-08-26",
+      "links": []
+    },
+    {
+      "category": "risk",
+      "tier": "T2",
+      "source": "新浪财经",
+      "score": 7.2,
+      "title": "TWG坚称无欺诈，湖人出售溢价25%",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-08-26/doc-inipsezh0775277.shtml",
+      "summary": "TWG全球集团声明否认欺诈行为，称湖人队出售溢价<b>25%</b>，道奇队不出售，强调收到投资意向，联邦调查背景下坚决捍卫业务合规性。",
+      "reason": "个贷从业者需警惕商业风险，加强尽职调查和合规审查。",
+      "dateNote": "2026-08-26",
+      "links": []
+    },
+    {
+      "category": "risk",
+      "tier": "T1.5",
+      "source": "新浪财经",
+      "score": 8.8,
+      "title": "银监法增设四不准，禁止挪用资金",
+      "url": "https://finance.sina.com.cn/roll/2026-08-26/doc-iniprytn5656911.shtml",
+      "summary": "银监法二审稿新增“四不准”条款，明确禁止挪用资金、强制搭售等行为，要求银行业金融机构承担民事责任，强化消费者权益保护。",
+      "reason": "个贷从业者必须确保合规，避免不当催收和捆绑销售。",
+      "dateNote": "2026-08-26",
+      "links": []
+    },
+    {
+      "category": "risk",
+      "tier": "T2",
+      "source": "新浪财经",
+      "score": 7,
+      "title": "振华重工担保3.18亿，无逾期",
+      "url": "https://finance.sina.com.cn/stock/relnews/cn/2026-08-26/doc-inipsezh0779163.shtml",
+      "summary": "振华重工公告显示，担保总额<b>31,841.88万元</b>占净资产<b>1.97%</b>，无逾期担保，风险可控，财务状况稳健。",
+      "reason": "个贷从业者可参考其担保管理，控制单一客户风险敞口。",
+      "dateNote": "2026-08-26",
+      "links": []
+    },
+    {
+      "category": "sme",
+      "tier": "T2",
+      "source": "新浪财经",
+      "score": 7.3,
+      "title": "重庆银行覆盖400场景，数据调用量7亿",
+      "url": "https://finance.sina.com.cn/stock/enterprise/cn/2026-08-26/doc-iniprytk0849629.shtml",
+      "summary": "重庆银行数字化普惠覆盖<b>400</b>余业务场景，年均数据调用量<b>7亿</b>次，通过远程辅调提升效率，风控模型精准预警，服务小微企业融资需求。",
+      "reason": "个贷从业者应借鉴数字化风控工具，优化贷前调查流程。",
+      "dateNote": "2026-08-26",
+      "links": []
+    },
+    {
+      "category": "macro",
+      "tier": "T2",
+      "source": "新浪财经",
+      "score": 8.9,
+      "title": "六大行贴息细则落地，上限7500万",
+      "url": "https://finance.sina.com.cn/stock/relnews/hk/2026-08-26/doc-iniprytr6025265.shtml",
+      "summary": "六大国有银行发布中小微企业贷款贴息细则，中央财政对流动资金贷款年化贴息<b>1%</b>，固定资产贷款<b>1.5%</b>，单户企业贴息上限<b>7500万元</b>，经办机构扩容至<b>400家</b>，覆盖更多经营主体。",
+      "reason": "个贷从业者需调整产品策略，对接贴息政策扩大客户覆盖。",
+      "dateNote": "2026-08-26",
+      "links": []
+    },
+    {
+      "category": "mortgage",
+      "tier": "T2",
+      "source": "新浪财经",
+      "score": 8.3,
+      "title": "超20城房贷贴息，成都补贴最高2.5万",
+      "url": "https://finance.sina.com.cn/roll/2026-08-26/doc-iniprytq2314591.shtml",
+      "summary": "年内超<b>20</b>城出台房贷贴息政策，成都补贴最高<b>2.5万元</b>，上海补贴最高<b>5万元</b>，大连二套房补贴<b>15%</b>利息，政策灵活多样，降低置业成本。",
+      "reason": "个贷从业者应跟踪地方政策，优化首付和利率方案。",
+      "dateNote": "2026-08-26",
+      "links": []
+    },
+    {
+      "category": "mortgage",
+      "tier": "T2",
+      "source": "新浪财经",
+      "score": 7.6,
+      "title": "郑州存量房首付降至20%",
+      "url": "https://finance.sina.com.cn/china/2026-08-26/doc-iniprums2375551.shtml",
+      "summary": "郑州公积金新政下调存量房首付比例至<b>20%</b>，支持家庭代际互助贷款，降低购房门槛，支持刚性和改善性需求。",
+      "reason": "个贷从业者可调整首付比例策略，吸引存量房客户。",
+      "dateNote": "2026-08-26",
+      "links": []
+    }
+  ]
+}
