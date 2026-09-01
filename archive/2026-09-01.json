@@ -1,0 +1,116 @@
+{
+  "date": "2026-09-01",
+  "weekday": "星期二",
+  "focus": {
+    "title": "金融监管总局政绩观学习会议",
+    "summary": "国家金融监督管理总局召开树立和践行正确政绩观学习教育总结会议，具体内容未公开。从业者需关注政策动向，但细节不明。"
+  },
+  "stats": [
+    {
+      "num": "153.0",
+      "unit": "指数",
+      "label": "新动能指数"
+    },
+    {
+      "num": "22.7",
+      "unit": "%",
+      "label": "转型升级增速"
+    },
+    {
+      "num": "3.68",
+      "unit": "万亿元",
+      "label": "招行零售贷款余额"
+    },
+    {
+      "num": "636",
+      "unit": "元",
+      "label": "房贷月供减少"
+    }
+  ],
+  "items": [
+    {
+      "category": "mortgage",
+      "tier": "T2",
+      "source": "新浪财经",
+      "score": 8.5,
+      "title": "房贷延至40年 国有大行落地",
+      "url": "https://finance.sina.com.cn/stock/estate/integration/2026-09-01/doc-iniqfuym8688867.shtml",
+      "summary": "央行延长房贷期限至<b>40年</b>，建行、邮储等国有大行火速落地。以100万贷款为例，40年期月供<b>3580元</b>，较30年期<b>4216元</b>减少<b>636元</b>，年省<b>7632元</b>，缓解购房者压力。多家银行执行节奏不一，存量客户可申请延长期限。",
+      "reason": "个贷从业者应调整产品策略，推广长期房贷以吸引客户。",
+      "dateNote": "2026-08-31",
+      "links": []
+    },
+    {
+      "category": "risk",
+      "tier": "T2",
+      "source": "新浪财经",
+      "score": 8,
+      "title": "浙商银行净息差降0.13BP 个贷不良升0.48BP",
+      "url": "https://finance.sina.com.cn/roll/2026-08-31/doc-iniqfkkm4683035.shtml",
+      "summary": "浙商银行上半年净息差<b>1.56%</b>，同比降<b>0.13BP</b>；不良率<b>1.36%</b>，个人贷款不良率<b>2.93%</b>，升<b>0.48BP</b>，主因经营贷和消费贷违约增加。公司不良率降<b>0.09BP</b>，净息差降幅收窄，下半年承压但幅度减小。",
+      "reason": "个贷从业者需加强个人贷款风控，应对不良上升压力。",
+      "dateNote": "2026-08-31",
+      "links": []
+    },
+    {
+      "category": "macro",
+      "tier": "T1",
+      "source": "金融监管总局·政策法规",
+      "score": 9,
+      "title": "金融监管总局政绩观学习会议",
+      "url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1270298&itemId=915",
+      "summary": "会议召开，具体内容未公开。摘要仅显示'无'，无政策细节或数据披露。",
+      "reason": "从业者需关注政策动向，但细节不明。",
+      "dateNote": "2026-08-31",
+      "links": []
+    },
+    {
+      "category": "risk",
+      "tier": "T2",
+      "source": "新浪财经",
+      "score": 8,
+      "title": "招行零售不良率升0.1% 管控更积极",
+      "url": "https://finance.sina.com.cn/roll/2026-08-31/doc-iniqfeap4669824.shtml",
+      "summary": "招行零售贷款余额<b>3.68万亿</b>，降<b>1.08%</b>；零售不良率<b>1.16%</b>，升<b>0.10%</b>；不良生成额同比增<b>2.47亿</b>。副行长表示风险上升，将提高准入门槛，优化客群，防范共债风险。",
+      "reason": "个贷从业者应收紧零售信贷标准，防范共债风险。",
+      "dateNote": "2026-08-31",
+      "links": []
+    },
+    {
+      "category": "consumer",
+      "tier": "T2",
+      "source": "新浪财经",
+      "score": 8,
+      "title": "消金公司净资产增 招联258.98亿",
+      "url": "https://finance.sina.com.cn/stock/enterprise/plc/2026-08-31/doc-iniqfear7288757.shtml",
+      "summary": "持牌消金公司主动调整，招联消金净资产<b>258.98亿</b>增<b>3.1%</b>，马上消费<b>157亿</b>增<b>7%</b>；上半年不良资产转让超<b>288亿</b>，首逾FPD10降至历史最低。监管收紧助贷模式，强化自营能力。",
+      "reason": "个贷从业者需强化自营能力，提升风控模型以应对监管收紧。",
+      "dateNote": "2026-08-31",
+      "links": []
+    },
+    {
+      "category": "risk",
+      "tier": "T2",
+      "source": "新浪财经",
+      "score": 8,
+      "title": "华夏银行加速不良资产清收处置",
+      "url": "https://finance.sina.com.cn/jryx/bank/2026-08-31/doc-iniqexut7394249.shtml",
+      "summary": "华夏银行行长表示，上半年加快出清潜在风险，下半年将分类施策、多措并举，加快推进不良资产清收处置，提升处置能力，严防新增风险。",
+      "reason": "个贷从业者应加强贷后管理，加速不良处置。",
+      "dateNote": "2026-08-31",
+      "links": []
+    },
+    {
+      "category": "macro",
+      "tier": "T1",
+      "source": "国家统计局",
+      "score": 8.5,
+      "title": "新动能指数增12.5% 转型升级贡献大",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202608/t20260827_1965129.html",
+      "summary": "2025年经济发展新动能指数<b>153.0</b>，增<b>12.5%</b>；转型升级指数<b>156.8</b>增<b>22.7%</b>，贡献率<b>34.1%</b>；创新驱动<b>156.3</b>增<b>12.9%</b>。网络经济和经济活力指数均提升。",
+      "reason": "个贷从业者关注经济新动能，调整信贷策略支持创新领域。",
+      "dateNote": "2026-08-27",
+      "links": []
+    }
+  ]
+}
