@@ -1,0 +1,128 @@
+{
+  "date": "2026-09-13",
+  "weekday": "星期日",
+  "focus": {
+    "title": "美银：土耳其10月降息后，利率或将维持至2027年4月",
+    "summary": "富力地产董事长李思廉被限制高消费，涉及4.29亿元金融借款纠纷未履行。公司三年半累计亏损596.67亿元，逾期债务高达471.09亿元，而现金仅26亿元。正推进境内外债务重组，但风险持续，警示房企债务危机蔓延。"
+  },
+  "stats": [
+    {
+      "num": "4.29",
+      "unit": "亿元",
+      "label": "金融借款纠纷金额"
+    },
+    {
+      "num": "596.67",
+      "unit": "亿元",
+      "label": "三年半累计亏损"
+    },
+    {
+      "num": "471.09",
+      "unit": "亿元",
+      "label": "逾期债务余额"
+    },
+    {
+      "num": "26",
+      "unit": "亿元",
+      "label": "现金总额"
+    }
+  ],
+  "items": [
+    {
+      "category": "macro",
+      "tier": "T2",
+      "source": "新浪财经",
+      "score": 7.5,
+      "title": "青岛国信发7亿债 利率2.38%",
+      "url": "https://finance.sina.com.cn/stock/estate/integration/2026-09-11/doc-inirnnxy7290767.shtml",
+      "summary": "青岛国信发展完成7亿元公司债券发行，品种二票面利率为<b>2.38%</b>，期限10年。发行价格为100元/张，采取询价配售方式。承销机构中信证券等获配<b>2.60亿元</b>。",
+      "reason": "个贷从业者可关注低利率债券融资机会，优化资金成本。",
+      "dateNote": "2026-09-11",
+      "links": []
+    },
+    {
+      "category": "risk",
+      "tier": "T2",
+      "source": "新浪财经",
+      "score": 8,
+      "title": "辛树人不松懈，恒丰银行转让超5亿元对公不良资产",
+      "url": "https://finance.sina.com.cn/money/bank/gsdt/2026-09-11/doc-inirnais6774018.shtml",
+      "summary": "来源：银瑞社 作者：许淑敏 上个月，恒丰银行在济南召开2026年年中工作会议，董事长辛树人出席会议并讲话，行长白雨石作了经营分析报告。",
+      "reason": "",
+      "dateNote": "2026-09-11",
+      "links": []
+    },
+    {
+      "category": "risk",
+      "tier": "T2",
+      "source": "新浪财经",
+      "score": 7.8,
+      "title": "地产大佬李思廉被限高！旗下富力地产此前因债务逾期未披露被警示，三年半亏损596亿元",
+      "url": "https://finance.sina.com.cn/stock/s/2026-09-11/doc-inirmvzz2205350.shtml",
+      "summary": "红星资本局9月11日消息，9月10日晚，富力地产（02777.HK）披露了公司及公司法定代表人、董事长李思廉于近日新增被限制高消费情形。",
+      "reason": "",
+      "dateNote": "2026-09-11",
+      "links": []
+    },
+    {
+      "category": "risk",
+      "tier": "T2",
+      "source": "新浪财经",
+      "score": 7.2,
+      "title": "德银：土耳其2027末利率30%",
+      "url": "https://finance.sina.com.cn/stock/observe/2026-09-11/doc-inirnaix2290383.shtml",
+      "summary": "德意志银行预计土耳其央行今年降息两次，政策利率从<b>37%</b>降至<b>35%</b>；2027年末利率<b>30%</b>，通胀25%。能源价格不确定性是风险。",
+      "reason": "个贷从业者需关注国际利率趋势，影响跨境贷款成本。",
+      "dateNote": "2026-09-11",
+      "links": []
+    },
+    {
+      "category": "sme",
+      "tier": "T2",
+      "source": "新浪财经",
+      "score": 7,
+      "title": "深圳国际发10亿中票 利率2.07%",
+      "url": "https://finance.sina.com.cn/stock/relnews/cn/2026-09-11/doc-inirnais6806373.shtml",
+      "summary": "深圳国际完成发行<b>10亿元</b>中期票据，票面利率<b>2.07%</b>，年期10年。",
+      "reason": "个贷从业者可关注企业债券发行利率，指导个人贷款定价。",
+      "dateNote": "2026-09-11",
+      "links": []
+    },
+    {
+      "category": "sme",
+      "tier": "T2",
+      "source": "新浪财经",
+      "score": 7,
+      "title": "美银：土耳其10月降息至36%",
+      "url": "https://finance.sina.com.cn/stock/zqgd/2026-09-11/doc-inirnaix2292336.shtml",
+      "summary": "美银预计土耳其央行10月降息100个基点至<b>36%</b>，年末利率<b>36%</b>，通胀29.5%；利率维持至2027年4月。",
+      "reason": "个贷从业者应监控国际货币政策变化，调整贷款策略。",
+      "dateNote": "2026-09-11",
+      "links": []
+    },
+    {
+      "category": "macro",
+      "tier": "T2",
+      "source": "新浪财经",
+      "score": 7,
+      "title": "德意志银行：预计土耳其2027年末政策利率为30%",
+      "url": "https://finance.sina.com.cn/world/2026-09-11/doc-inirnaix2276463.shtml",
+      "summary": "德意志银行经济学家耶伊特·奥纳伊表示，预计土耳其央行今年将实施两次降息，政策利率将从当前37%下调至35%。 他在9月10日发布的研报中称...",
+      "reason": "",
+      "dateNote": "2026-09-11",
+      "links": []
+    },
+    {
+      "category": "macro",
+      "tier": "T2",
+      "source": "新浪财经",
+      "score": 7,
+      "title": "美银：土耳其10月降息后，利率或将维持至2027年4月",
+      "url": "https://finance.sina.com.cn/world/2026-09-11/doc-inirnaix2271832.shtml",
+      "summary": "美银证券经济学家汉德·库楚克预计，土耳其央行在下月完成一次潜在降息后，将维持利率不变直至2027年4月。 库楚克预测，若9月通胀无超预期上行、油价不再继续上涨...",
+      "reason": "",
+      "dateNote": "2026-09-11",
+      "links": []
+    }
+  ]
+}
