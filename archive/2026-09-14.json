@@ -1,0 +1,140 @@
+{
+  "date": "2026-09-14",
+  "weekday": "星期一",
+  "focus": {
+    "title": "宣昌能会见新加坡金融管理局副行长",
+    "summary": "2026年9月10日，中国人民银行副行长宣昌能会见新加坡金融管理局副行长梁新松，双方就当前经济金融形势和中新金融合作等议题进行了交流，强调加强国际合作以应对全球挑战。"
+  },
+  "stats": [
+    {
+      "num": "1.491",
+      "unit": "亿元",
+      "label": "云创数据罚款金额"
+    },
+    {
+      "num": "7.67",
+      "unit": "亿元",
+      "label": "云创数据虚增营收"
+    },
+    {
+      "num": "71.452",
+      "unit": "亿元",
+      "label": "香溢融通对外担保总额"
+    },
+    {
+      "num": "74.13",
+      "unit": "亿元",
+      "label": "福田汽车对外担保总额"
+    }
+  ],
+  "items": [
+    {
+      "category": "macro",
+      "tier": "T1",
+      "source": "央行·沟通交流",
+      "score": 9.5,
+      "title": "宣昌能会见新加坡金融管理局副行长",
+      "url": "http://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026091018582672927/index.html",
+      "summary": "2026年9月10日，中国人民银行副行长宣昌能会见新加坡金融管理局副行长梁新松，双方就当前经济金融形势和中新金融合作等议题进行了交流。",
+      "reason": "中新合作可能影响跨境贷款政策，个贷从业者需关注国际金融动态。",
+      "dateNote": "2026-09-10",
+      "links": []
+    },
+    {
+      "category": "macro",
+      "tier": "T1",
+      "source": "央行·沟通交流",
+      "score": 9.5,
+      "title": "陶玲出席金砖国家财长会议",
+      "url": "http://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026091016204145905/index.html",
+      "summary": "2026年9月10日，中国人民银行副行长陶玲出席金砖国家财长和央行行长会议，讨论全球经济形势、国际金融治理等议题，通过《联合声明》。",
+      "reason": "金砖合作影响国际金融规则，个贷业务需适应全球政策变化。",
+      "dateNote": "2026-09-10",
+      "links": []
+    },
+    {
+      "category": "macro",
+      "tier": "T1",
+      "source": "央行·沟通交流",
+      "score": 9,
+      "title": "宣昌能出席国际清算银行行长例会",
+      "url": "http://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026090909080511735/index.html",
+      "summary": "2026年9月6-7日，宣昌能出席国际清算银行行长例会，讨论全球经济金融形势、货币政策挑战等，并与部分央行行长交流。",
+      "reason": "国际央行会议讨论货币政策，个贷从业者需关注全球利率趋势。",
+      "dateNote": "2026-09-09",
+      "links": []
+    },
+    {
+      "category": "risk",
+      "tier": "T2",
+      "source": "新浪财经",
+      "score": 8.5,
+      "title": "欺诈发行罚款1.49亿，'看大门'罚300万",
+      "url": "https://finance.sina.com.cn/stock/relnews/2026-09-12/doc-inirrtkn5842611.shtml",
+      "summary": "云创数据因信披违法、欺诈发行被罚<b>1.491亿元</b>，11名责任人共罚<b>1.491亿</b>，其中董秘罚<b>450万</b>、工程部经理罚<b>300万</b>。公司虚增营收<b>7.67亿元</b>、虚增利润<b>2.56亿元</b>，IPO募资<b>3.48亿</b>，市值仅<b>5295万</b>。",
+      "reason": "欺诈发行警示个贷风控需强化尽职调查，避免类似风险。",
+      "dateNote": "2026-09-12",
+      "links": []
+    },
+    {
+      "category": "risk",
+      "tier": "T2",
+      "source": "新浪财经",
+      "score": 7.5,
+      "title": "九洲集团：公司及控股子公司无逾期担保、无涉及诉讼的担保、也无因担保被判决败诉而应承担损失的情形",
+      "url": "https://finance.sina.com.cn/stock/relnews/cn/2026-09-13/doc-inirszcu4372117.shtml",
+      "summary": "证券日报网讯9月13日，九洲集团发布公告称，截至本公告日，公司及其控股子公司累计对外担保362,417.04万元，全部为对合并范围内的子公司提供的担保（包含本次担保）...",
+      "reason": "",
+      "dateNote": "2026-09-13",
+      "links": []
+    },
+    {
+      "category": "risk",
+      "tier": "T2",
+      "source": "新浪财经",
+      "score": 7,
+      "title": "盛和资源无逾期担保",
+      "url": "https://finance.sina.com.cn/stock/relnews/cn/2026-09-11/doc-inirnnxw5666910.shtml",
+      "summary": "盛和资源对子公司担保余额<b>25.695亿元</b>，占净资产<b>18.17%</b>，无逾期担保。",
+      "reason": "担保风险可控，个贷业务可参考其担保管理策略。",
+      "dateNote": "2026-09-11",
+      "links": []
+    },
+    {
+      "category": "risk",
+      "tier": "T2",
+      "source": "新浪财经",
+      "score": 7,
+      "title": "德才股份无逾期担保",
+      "url": "https://finance.sina.com.cn/stock/relnews/cn/2026-09-11/doc-inirnnxu8890229.shtml",
+      "summary": "德才股份对外担保余额<b>11.78亿元</b>，占净资产<b>76%</b>，无逾期担保。",
+      "reason": "担保比例较高但无逾期，个贷业务需平衡担保规模与风险。",
+      "dateNote": "2026-09-11",
+      "links": []
+    },
+    {
+      "category": "risk",
+      "tier": "T2",
+      "source": "新浪财经",
+      "score": 7,
+      "title": "香溢融通无逾期担保",
+      "url": "https://finance.sina.com.cn/stock/relnews/cn/2026-09-11/doc-inirnhry5762059.shtml",
+      "summary": "香溢融通对外担保总额<b>71.452亿元</b>，实际担保余额<b>36.487亿元</b>，占净资产<b>162.88%</b>，无逾期担保。",
+      "reason": "高担保比例下无逾期，个贷业务可借鉴其风险控制。",
+      "dateNote": "2026-09-11",
+      "links": []
+    },
+    {
+      "category": "risk",
+      "tier": "T2",
+      "source": "新浪财经",
+      "score": 7,
+      "title": "福田汽车无逾期担保",
+      "url": "https://finance.sina.com.cn/stock/relnews/cn/2026-09-11/doc-inirnhrv2238878.shtml",
+      "summary": "福田汽车对外担保总额<b>74.13亿元</b>，担保余额<b>125.83亿元</b>，占净资产<b>80.57%</b>，无逾期担保。",
+      "reason": "担保规模大但无逾期，个贷业务需关注担保集中度风险。",
+      "dateNote": "2026-09-11",
+      "links": []
+    }
+  ]
+}
