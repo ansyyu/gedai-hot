@@ -1,0 +1,224 @@
+{
+  "date": "2026-09-18",
+  "weekday": "星期五",
+  "focus": {
+    "title": "经营贷利率低至2.35%，10月或上调",
+    "summary": "近期经营贷利率仍处低位，深圳最低2.35%，上海普遍2.4%-2.7%，但多家银行透露10月可能上调，且贷款已收紧。个贷从业者应抓住当前低利率窗口，加速放贷，同时关注客户资质和抵押物要求，以应对未来利率上行风险。"
+  },
+  "stats": [
+    {
+      "num": "2.35",
+      "unit": "%",
+      "label": "深圳经营贷最低利率"
+    },
+    {
+      "num": "2.4",
+      "unit": "%",
+      "label": "上海经营贷利率下限"
+    },
+    {
+      "num": "2.7",
+      "unit": "%",
+      "label": "上海经营贷利率上限"
+    },
+    {
+      "num": "10",
+      "unit": "月",
+      "label": "可能上调月份"
+    }
+  ],
+  "items": [
+    {
+      "category": "consumer",
+      "tier": "T2",
+      "source": "新浪财经",
+      "score": 7.5,
+      "title": "学生贷款掏空退休储备：40多岁人群账户低45%",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-18/doc-inisefvv0388082.shtml",
+      "summary": "美国雇员福利研究所报告显示，背负学生贷款的40多岁人群退休账户余额中位数比无贷款人群低<b>45%</b>。每五人中有一人背负贷款，55-59岁群体<b>12.9%</b>仍在还贷。42%企业提供学生贷款配套退休福利，帮助客户兼顾还贷与储蓄。",
+      "reason": "推广学生贷款配套退休福利，帮助客户平衡债务与储蓄。",
+      "dateNote": "2026-09-17",
+      "links": []
+    },
+    {
+      "category": "macro",
+      "tier": "T2",
+      "source": "新浪财经",
+      "score": 7,
+      "title": "巴西央行连续五次降息至13.75%",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-17/doc-inisczpv3668036.shtml",
+      "summary": "巴西货币政策委员会将基准利率下调25个基点至<b>13.75%</b>，累计降息<b>125</b>个基点。通胀率<b>4.22%</b>，高于3%目标，政策保持谨慎。美联储利率上升至3.75%-4%，增加外部不确定性。",
+      "reason": "关注国际利率变动，调整跨境贷款策略。",
+      "dateNote": "2026-09-17",
+      "links": []
+    },
+    {
+      "category": "macro",
+      "tier": "T2",
+      "source": "新浪财经",
+      "score": 7,
+      "title": "大额存单利率缩水：与普通定存持平",
+      "url": "https://finance.sina.com.cn/jjxw/2026-09-17/doc-inisczpx0385933.shtml",
+      "summary": "大额存单利率优势消退，工行3年期<b>1.55%</b>、5年期<b>1.60%</b>与普通定存持平。银行推行客群分层发售，引导资金向低成本产品迁移。净息差压力下，存款定价从'一价普适'走向'客群分层'。",
+      "reason": "调整存款产品推荐，强调客群分层以控成本。",
+      "dateNote": "2026-09-17",
+      "links": []
+    },
+    {
+      "category": "sme",
+      "tier": "T2",
+      "source": "新浪财经",
+      "score": 7.8,
+      "title": "兴业证券担保总额234亿，无逾期",
+      "url": "https://finance.sina.com.cn/stock/relnews/cn/2026-09-17/doc-inisczpy9032952.shtml",
+      "summary": "兴业证券公告称，担保总额<b>234.25</b>亿元，占净资产<b>38.00%</b>，全部为对子公司担保。控股子公司担保<b>54.42</b>亿元，占净资产<b>8.83%</b>，无债务逾期情况。",
+      "reason": "监控企业担保风险，确保客户资产安全。",
+      "dateNote": "2026-09-17",
+      "links": []
+    },
+    {
+      "category": "risk",
+      "tier": "T2",
+      "source": "新浪财经",
+      "score": 8.5,
+      "title": "经营贷利率低至2.35%，10月或上调",
+      "url": "https://finance.sina.com.cn/roll/2026-09-17/doc-iniscvfx3598763.shtml",
+      "summary": "深圳经营贷最低<b>2.35%</b>，上海普遍<b>2.4%-2.7%</b>，银行以企业资质和抵押物为核价核心。多家银行透露10月可能上调利率，且贷款已收紧，如建行暂停写字楼、商铺抵押贷。",
+      "reason": "抓住当前低利率窗口加速放贷，应对未来上行风险。",
+      "dateNote": "2026-09-17",
+      "links": []
+    },
+    {
+      "category": "risk",
+      "tier": "T2",
+      "source": "新浪财经",
+      "score": 7.2,
+      "title": "消金不良出清：532亿挂牌，折扣率跌至6.3%",
+      "url": "https://finance.sina.com.cn/wm/2026-09-17/doc-iniscvfv3933608.shtml",
+      "summary": "上半年24家持牌消金挂牌转让不良贷款<b>532.02</b>亿元，同比增长<b>74.5%</b>。成交折扣率从18%跌至<b>6.3%</b>，长账龄包低至4%。资产包共性：纯信用、小额分散、账龄超长、息费占比高。",
+      "reason": "优化不良资产处置策略，评估回收率风险。",
+      "dateNote": "2026-09-17",
+      "links": []
+    },
+    {
+      "category": "tech",
+      "tier": "T2",
+      "source": "新浪财经",
+      "score": 7,
+      "title": "金融营销新规9月30日实施，违规仍存",
+      "url": "https://finance.sina.com.cn/roll/2026-09-17/doc-iniscqxx4054109.shtml",
+      "summary": "新规要求金融机构设置个性化推荐关闭选项，部分平台存在借贷信息碎片化展示、支付页面违规营销等问题。如某平台用'日最低0.11元'诱导用户，综合成本感知不足。",
+      "reason": "确保营销合规，避免诱导性用语和风险误导。",
+      "dateNote": "2026-09-17",
+      "links": []
+    },
+    {
+      "category": "macro",
+      "tier": "T1",
+      "source": "金融监管总局·新闻",
+      "score": 8,
+      "title": "无正文摘要",
+      "url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1272327&itemId=861",
+      "summary": "无正文摘要",
+      "reason": "需关注政策更新。",
+      "dateNote": "2026-09-17",
+      "links": []
+    },
+    {
+      "category": "risk",
+      "tier": "T2",
+      "source": "新浪财经",
+      "score": 7.3,
+      "title": "小额优惠诱导误开消费贷，暗藏征信风险",
+      "url": "https://finance.sina.com.cn/money/bank/bank_hydt/2026-09-17/doc-iniscksf0415545.shtml",
+      "summary": "外卖网购平台将'优先付'等信贷选项前置，依托优惠吸引用户点击，多数消费者误以为普通结账。全场景遍布先用后付功能，逾期将直接影响个人征信。",
+      "reason": "警惕平台诱导，保护客户征信免受误贷影响。",
+      "dateNote": "2026-09-17",
+      "links": []
+    },
+    {
+      "category": "tech",
+      "tier": "T2",
+      "source": "新浪财经",
+      "score": 7,
+      "title": "努比亚豆包二代手机5499元开卖",
+      "url": "https://finance.sina.com.cn/jjxw/2026-09-17/doc-iniscksf0357731.shtml",
+      "summary": "努比亚NaviX Ultra售价<b>5499</b>元起，预约量超<b>40</b>万。搭载豆包手机助手消费者版，但跨应用操作受限，部分App无法自动操作。AI任务执行成功率80%以上。",
+      "reason": "关注科技产品贷款需求，拓展高端客户群。",
+      "dateNote": "2026-09-17",
+      "links": []
+    },
+    {
+      "category": "macro",
+      "tier": "T2",
+      "source": "新浪财经",
+      "score": 7,
+      "title": "银行中期分红潮涌：20家拟分红2661亿",
+      "url": "https://finance.sina.com.cn/money/fund/jjh/2026-09-17/doc-iniscksf0271003.shtml",
+      "summary": "20家A股上市银行拟分红<b>2661.14</b>亿元，国有大行占比超八成，分红比例集体提升至<b>31%</b>。低利率环境下，华泰柏瑞'红利全家桶'股息率3.94%-6.08%，受险资青睐。",
+      "reason": "推广高股息产品，吸引中长期资金配置。",
+      "dateNote": "2026-09-17",
+      "links": []
+    },
+    {
+      "category": "macro",
+      "tier": "T1",
+      "source": "央行·沟通交流",
+      "score": 7.5,
+      "title": "央行副行长会见富时罗素CEO",
+      "url": "http://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026091611280492893/index.html",
+      "summary": "中国人民银行副行长宣昌能会见伦敦证券交易所集团富时罗素首席执行官，交流国际金融市场趋势、中国金融市场开放及富时罗素在华展业等议题。",
+      "reason": "追踪政策动向，把握国际金融合作机会。",
+      "dateNote": "2026-09-16",
+      "links": []
+    },
+    {
+      "category": "macro",
+      "tier": "T1",
+      "source": "国家统计局",
+      "score": 7,
+      "title": "8月国民经济平稳：工业增5.2%，服务增4.1%",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202609/t20260915_1965307.html",
+      "summary": "8月全国规模以上工业增加值同比增长<b>5.2%</b>，服务业生产指数增长<b>4.1%</b>。装备制造业增<b>12.1%</b>，高技术制造业增<b>16.7%</b>，新动能支撑作用增强。",
+      "reason": "基于经济数据调整贷款策略，支持高增长行业。",
+      "dateNote": "2026-09-15",
+      "links": []
+    },
+    {
+      "category": "macro",
+      "tier": "T1",
+      "source": "国家统计局",
+      "score": 7,
+      "title": "1-8月固定资产投资降7.2%，知识产权增9.2%",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202609/t20260915_1965309.html",
+      "summary": "全国固定资产投资同比下降<b>7.2%</b>，知识产权产品投资同比增长<b>9.2%</b>。高技术产业投资增<b>5.2%</b>，信息服务业投资增<b>28.4%</b>。",
+      "reason": "关注投资趋势，优先支持知识产权和高技术领域。",
+      "dateNote": "2026-09-15",
+      "links": []
+    },
+    {
+      "category": "macro",
+      "tier": "T1",
+      "source": "国家统计局",
+      "score": 7,
+      "title": "1-8月社零总额增1.1%，网上零售增4.6%",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202609/t20260915_1965311.html",
+      "summary": "社会消费品零售总额同比增长<b>1.1%</b>，网上商品和服务零售额增长<b>4.6%</b>。服务零售额增<b>4.9%</b>，通讯器材类商品零售额增<b>27.3%</b>。",
+      "reason": "推广线上消费贷款，捕捉高增长品类需求。",
+      "dateNote": "2026-09-15",
+      "links": []
+    },
+    {
+      "category": "macro",
+      "tier": "T1",
+      "source": "国家统计局",
+      "score": 7.2,
+      "title": "70城房价数据：无具体数字摘要",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202609/t20260915_1965304.html",
+      "summary": "70个大中城市商品住宅销售价格变动情况，采用2025年为基期，价格指数计算方法详见统计制度。如某城市当月无成交，视为价格无变动。",
+      "reason": "监测房地产价格变化，调整房贷政策。",
+      "dateNote": "2026-09-15",
+      "links": []
+    }
+  ]
+}
