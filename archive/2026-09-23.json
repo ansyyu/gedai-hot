@@ -1,0 +1,152 @@
+{
+  "date": "2026-09-23",
+  "weekday": "星期三",
+  "focus": {
+    "title": "柳城农商行被罚55万：授信违规",
+    "summary": "9月22日，广西柳城农村商业银行因未对集团客户统一授信、贷款五级分类不准确，被国家金融监督管理总局柳州监管分局罚款55万元，梁云岗被警告。该处罚凸显银行在集团客户管理和贷款分类上的合规风险，警示从业者强化内控机制。"
+  },
+  "stats": [
+    {
+      "num": "50",
+      "unit": "万亿元",
+      "label": "存款到期规模"
+    },
+    {
+      "num": "1.56",
+      "unit": "%",
+      "label": "债券票面利率"
+    },
+    {
+      "num": "5.37",
+      "unit": "%",
+      "label": "信用卡不良率上升"
+    },
+    {
+      "num": "90",
+      "unit": "%",
+      "label": "存款未搬家率"
+    }
+  ],
+  "items": [
+    {
+      "category": "risk",
+      "tier": "T1",
+      "source": "新浪财经",
+      "score": 9,
+      "title": "柳城农商行被罚55万：授信违规",
+      "url": "https://finance.sina.com.cn/jryx/fd/2026-09-22/doc-inistmex5576020.shtml",
+      "summary": "广西柳城农村商业银行因未对集团客户统一授信、贷款五级分类不准确，被国家金融监督管理总局柳州监管分局罚款<b>55万元</b>，梁云岗被警告。该处罚反映银行在集团客户管理和贷款分类上的合规漏洞，需加强内控以避免类似风险。",
+      "reason": "严格审查集团客户授信，确保贷款分类准确性。",
+      "dateNote": "2026-09-22",
+      "links": []
+    },
+    {
+      "category": "mortgage",
+      "tier": "T2",
+      "source": "新浪财经",
+      "score": 8.5,
+      "title": "40年房贷落地：预审15分钟，门槛严",
+      "url": "https://finance.sina.com.cn/money/bank/bank_hydt/2026-09-22/doc-inistewx8892466.shtml",
+      "summary": "多家银行开放40年期商贷，邮储银行江苏分行线上预审最快<b>15分钟</b>，南京杭州分行支持3分钟预审。但设置多重门槛：借款人年龄与贷款年限之和不超过<b>85岁</b>，仅1991年后购房者易获批40年。公积金贷款未跟进，购房者需权衡月供与利息成本，'长贷短还'成主流选择。",
+      "reason": "评估购房者年龄和收入，谨慎选择长贷短还方案。",
+      "dateNote": "2026-09-22",
+      "links": []
+    },
+    {
+      "category": "consumer",
+      "tier": "T2",
+      "source": "新浪财经",
+      "score": 8,
+      "title": "信用卡半年减2000万：零售信贷承压",
+      "url": "https://finance.sina.com.cn/money/bank/bank_hydt/2026-09-22/doc-inistewz5651363.shtml",
+      "summary": "2026上半年全国信用卡减少<b>2000万张</b>，总量降至<b>6.77亿张</b>，连续15季度下滑。上市银行如工行信用卡不良率同比上升<b>5.37%</b>，零售贷款余额下降0.8%。银行关停信用卡分中心，信用卡业务规模与质量双重承压。",
+      "reason": "优化信用卡业务，关注资产质量风险管控。",
+      "dateNote": "2026-09-22",
+      "links": []
+    },
+    {
+      "category": "tech",
+      "tier": "T2",
+      "source": "新浪财经",
+      "score": 7.5,
+      "title": "奇富科技CEO交棒：出海与风控",
+      "url": "https://finance.sina.com.cn/roll/2026-09-22/doc-inistewz5608070.shtml",
+      "summary": "奇富科技CEO吴海生专注海外业务，由首席风险官郑彦接任。2025年净收入<b>192.05亿元</b>，同比增长11.9%，净利润<b>59.76亿元</b>，同比下降4.4%。吴海生将加速欧洲、拉美、东南亚市场布局，郑彦凭借18年风控经验引领新阶段。",
+      "reason": "聚焦海外扩张，强化风险管理以平衡风险与收益。",
+      "dateNote": "2026-09-22",
+      "links": []
+    },
+    {
+      "category": "macro",
+      "tier": "T1.5",
+      "source": "新浪财经",
+      "score": 7.5,
+      "title": "中信银行发50亿债：利率1.56%",
+      "url": "https://finance.sina.com.cn/stock/estate/integration/2026-09-22/doc-inissyqz8886785.shtml",
+      "summary": "中信银行发行2026年金融债券第一期，规模<b>50亿元</b>，3年期固定利率，票面利率<b>1.56%</b>。募集资金用于优化中长期资产负债匹配结构，增加稳定负债来源，支持中长期资产业务。",
+      "reason": "利用低利率债券优化负债结构，匹配长期资产需求。",
+      "dateNote": "2026-09-22",
+      "links": []
+    },
+    {
+      "category": "sme",
+      "tier": "T2",
+      "source": "新浪财经",
+      "score": 8,
+      "title": "广发资管推广东首只村集体资管计划",
+      "url": "https://finance.sina.com.cn/stock/relnews/hk/2026-09-22/doc-inissyqx6845480.shtml",
+      "summary": "广发资管推出广东省首只村集体专属券商资管计划，赋能禅城区'百千万工程'。通过'政银村'协同，推动村集体存量资金从储蓄向市场化投资转型，助力集体资产保值增值，服务乡村振兴。",
+      "reason": "创新农村金融产品，提升集体资金管理效率。",
+      "dateNote": "2026-09-22",
+      "links": []
+    },
+    {
+      "category": "tech",
+      "tier": "T2",
+      "source": "新浪财经",
+      "score": 7,
+      "title": "中小银行利率债量化风控初探",
+      "url": "https://finance.sina.com.cn/money/bond/market/2026-09-22/doc-inisuhkm8558921.shtml",
+      "summary": "中小银行在利率债量化交易中面临资源约束，需建立匹配风控机制。方向性策略存在利率预判偏误、杠杆放大和共振风险；相对价值策略面临曲线形态偏离风险。建议通过行业协作分摊成本，规避策略同质化。",
+      "reason": "建立适配资源的风控机制，避免策略共振引发损失。",
+      "dateNote": "2026-09-22",
+      "links": []
+    },
+    {
+      "category": "macro",
+      "tier": "T2",
+      "source": "新浪财经",
+      "score": 8,
+      "title": "存款利率涨超2%，50万亿到期",
+      "url": "https://finance.sina.com.cn/roll/2026-09-22/doc-inissuif5707831.shtml",
+      "summary": "多家中小银行上调存款利率，微众银行3年期定存利率<b>1.75%</b>，苏商银行5年期达<b>2.1%</b>。2026年居民定存到期规模约<b>50万亿元</b>，超90%存款未'搬家'。银行控制高息定存规模，作为补充负债工具。",
+      "reason": "高息定存吸引存款，但规模有限需谨慎管理。",
+      "dateNote": "2026-09-22",
+      "links": []
+    },
+    {
+      "category": "macro",
+      "tier": "T1",
+      "source": "金融监管总局·政策法规",
+      "score": 7.5,
+      "title": "丁向群会见香港财政司司长",
+      "url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1272870&itemId=915",
+      "summary": "丁向群会见香港特区政府财政司司长陈茂波，讨论金融合作事宜。具体内容未公开，但涉及跨境金融政策协调。",
+      "reason": "关注跨境金融政策动向，把握合作机遇。",
+      "dateNote": "2026-09-22",
+      "links": []
+    },
+    {
+      "category": "tech",
+      "tier": "T2",
+      "source": "新浪财经",
+      "score": 7,
+      "title": "阿里Qwen：开源开放实现AI普惠",
+      "url": "https://finance.sina.com.cn/hy/hyjz/2026-09-22/doc-inissitm5677434.shtml",
+      "summary": "阿里Qwen项目负责人刘大一恒在云栖大会表示，AI进入智能体时代，token需求爆发。千问3.8 27B模型获HuggingFace平台点赞最多，强调开源开放实现AI普惠，让更多人参与创造。",
+      "reason": "利用AI技术提升金融服务效率，推动普惠金融落地。",
+      "dateNote": "2026-09-22",
+      "links": []
+    }
+  ]
+}
