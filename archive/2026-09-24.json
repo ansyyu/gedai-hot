@@ -1,0 +1,152 @@
+{
+  "date": "2026-09-24",
+  "weekday": "星期四",
+  "focus": {
+    "title": "金融监管总局发布第九个五年法治规划",
+    "summary": "金融监管总局发布法治宣传教育五年规划，覆盖2026-2030年，旨在强化银行业保险业法治建设，规范业务操作，提升合规水平。"
+  },
+  "stats": [
+    {
+      "num": "7.12",
+      "unit": "%",
+      "label": "抵押贷款利率"
+    },
+    {
+      "num": "600",
+      "unit": "亿元",
+      "label": "央行票据发行量"
+    },
+    {
+      "num": "75.06",
+      "unit": "%",
+      "label": "马上消金营收下滑"
+    },
+    {
+      "num": "10",
+      "unit": "秒",
+      "label": "强制阅读时间"
+    }
+  ],
+  "items": [
+    {
+      "category": "macro",
+      "tier": "T1",
+      "source": "金融监管总局·通知",
+      "score": 9,
+      "title": "金融监管总局发布第九个五年法治规划",
+      "url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1273095&itemId=925",
+      "summary": "金融监管总局印发《全国银行业保险业开展法治宣传教育的第九个五年规划（2026—2030年）》，覆盖2026至2030年，旨在强化行业法治建设，规范业务操作，提升合规水平。规划未提供具体数字细节，但强调法治宣传教育的重要性。",
+      "reason": "个贷从业者需关注新规对业务合规的长期影响。",
+      "dateNote": "2026-09-23",
+      "links": []
+    },
+    {
+      "category": "consumer",
+      "tier": "T1.5",
+      "source": "新浪财经",
+      "score": 8.5,
+      "title": "个人贷款息费明示规范：10秒强制阅读",
+      "url": "https://finance.sina.com.cn/tob/2026-09-23/doc-inisuxfz6146803.shtml",
+      "summary": "五家协会联合发布《个人贷款业务明示综合融资成本自律规范》，要求不得使用日利率替代年化成本，线上贷款须单独弹窗展示明示表，设置<b>10秒</b>强制阅读时间。头部机构如招联消金、中邮消金等已落地，招联消金公示年化利率<b>7.2%至24%</b>，中邮消金展示正常履约年化综合融资成本。",
+      "reason": "个贷机构需优化产品流程，确保息费透明以符合新规。",
+      "dateNote": "2026-09-23",
+      "links": []
+    },
+    {
+      "category": "mortgage",
+      "tier": "T2",
+      "source": "新浪财经",
+      "score": 8,
+      "title": "阳泉农商行房贷最长期限30年",
+      "url": "https://finance.sina.com.cn/jjxw/2026-09-23/doc-inisunsp1457925.shtml",
+      "summary": "阳泉农商银行发文明确房贷“安居贷”最长期限<b>30年</b>，年龄+贷款期限之和不超过<b>70岁</b>，年化利率<b>3.0%</b>起。其他银行如长沙银行可贷40年，显示不同银行策略分化。宁波农行已受理一笔40年期房贷申请，反映市场需求。",
+      "reason": "个贷从业者需根据银行策略调整房贷产品设计。",
+      "dateNote": "2026-09-23",
+      "links": []
+    },
+    {
+      "category": "mortgage",
+      "tier": "T2",
+      "source": "新浪财经",
+      "score": 8,
+      "title": "抵押贷款利率突破7%，10%选浮息房贷",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-23/doc-inisvqcx5252351.shtml",
+      "summary": "抵押贷款利率上周攀升至<b>7.12%</b>，创2024年以来最高，贷款申请量下降<b>1.5%</b>。浮动利率房贷申请占比达<b>9.8%</b>，较前一周上升1.4个百分点，因固定利率大幅走高。再融资申请下降3%，同比低62%。",
+      "reason": "个贷机构需关注浮息产品风险，优化利率策略。",
+      "dateNote": "2026-09-23",
+      "links": []
+    },
+    {
+      "category": "mortgage",
+      "tier": "T2",
+      "source": "新浪财经",
+      "score": 7.5,
+      "title": "北京新盘全款86折，价差超百万",
+      "url": "https://finance.sina.com.cn/stock/wbstock/2026-09-23/doc-inisvcqf1204045.shtml",
+      "summary": "北京新政后首批新盘瑜海澐颂开盘，全款首付享受<b>86折</b>，低首付<b>95折</b>，价差超<b>90万元</b>（如1000万房源节省90万）。项目针对不同首付设置优惠，开发商为加快回款。其他项目如招商·湖映天青等近期入市。",
+      "reason": "个贷从业者需分析首付策略对购房决策的影响。",
+      "dateNote": "2026-09-23",
+      "links": []
+    },
+    {
+      "category": "macro",
+      "tier": "T2",
+      "source": "新浪财经",
+      "score": 7.5,
+      "title": "中小银行存款利率分化，未来稳中偏降",
+      "url": "https://finance.sina.com.cn/roll/2026-09-23/doc-inisvcqf1218824.shtml",
+      "summary": "中小银行存款利率调整分化，蓝海银行1年期上调至<b>1.70%</b>，微众银行3年期上调至<b>1.75%</b>；部分银行下调，如上海松江富明村镇银行3年期降至<b>2.00%</b>，出现期限倒挂。学者称未来大概率维持稳中偏降格局。",
+      "reason": "个贷从业者需关注存款利率变化对资金成本的影响。",
+      "dateNote": "2026-09-23",
+      "links": []
+    },
+    {
+      "category": "macro",
+      "tier": "T2",
+      "source": "新浪财经",
+      "score": 7,
+      "title": "央行发行600亿票据，中标利率1.37%",
+      "url": "https://finance.sina.com.cn/jjxw/2026-09-23/doc-inisuxhf5306305.shtml",
+      "summary": "央行通过CMU发行2026年第九期央行票据，发行量<b>600亿元</b>，期限<b>6个月</b>，中标利率<b>1.37%</b>。此举旨在调节市场流动性，稳定利率环境。",
+      "reason": "个贷从业者需关注央行票据发行对市场利率的影响。",
+      "dateNote": "2026-09-23",
+      "links": []
+    },
+    {
+      "category": "consumer",
+      "tier": "T2",
+      "source": "新浪财经",
+      "score": 7,
+      "title": "马上消金营收下滑超7成",
+      "url": "https://finance.sina.com.cn/money/bank/gsdt/2026-09-23/doc-inisvqct5919793.shtml",
+      "summary": "马上消金2026年上半年营收同比下滑<b>75.06%</b>，净利润下滑<b>68.82%</b>，总资产缩水<b>140亿元</b>。公司撤回IPO辅导，总经理更迭，面临规模收缩和风险出清的换挡时刻。",
+      "reason": "个贷从业者需关注行业风险，优化业务策略。",
+      "dateNote": "2026-09-23",
+      "links": []
+    },
+    {
+      "category": "consumer",
+      "tier": "T2",
+      "source": "新浪财经",
+      "score": 7,
+      "title": "助贷行业9.30大限，转向精细化经营",
+      "url": "https://finance.sina.com.cn/money/bank/bank_hydt/2026-09-23/doc-inisvcqc5282531.shtml",
+      "summary": "《金融产品网络营销管理办法》将于<b>9月30日</b>实施，禁止使用“低风险”等诱导性用语，合规成本上升。助贷行业从流量增长转向精细化经营，获客渠道需重建。",
+      "reason": "个贷从业者需调整营销话术，确保合规。",
+      "dateNote": "2026-09-23",
+      "links": []
+    },
+    {
+      "category": "risk",
+      "tier": "T2",
+      "source": "新浪财经",
+      "score": 7,
+      "title": "高盛警告：利率上升冲击浮息借款人",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-23/doc-inisuxhc8540729.shtml",
+      "summary": "高盛警告利率上升将率先冲击浮息借款人，因利息支出即时上升。再融资需求大的企业如软件业受影响，利率敏感行业如房地产、汽车面临压力。企业信用改善趋势可能停滞。",
+      "reason": "个贷从业者需评估浮息产品风险，优化客户结构。",
+      "dateNote": "2026-09-23",
+      "links": []
+    }
+  ]
+}
