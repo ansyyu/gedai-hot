@@ -1,0 +1,140 @@
+{
+  "date": "2026-11-04",
+  "weekday": "星期三",
+  "focus": {
+    "title": "黑产流水线：3天8家银行9台POS机截流2000万",
+    "summary": "最高检披露上海'征信洗白'黑产案：3天内诱骗客户跑8家银行申贷170余万元，9台POS机截流15%服务费，非法套现2000余万元、放贷2600万元，致40余人受害。主犯被判刑5年8个月，罚金265万元。揭示黑产如何将受害者炼成工具人，警示行业加强信用审核。"
+  },
+  "stats": [
+    {
+      "num": "2000",
+      "unit": "万元",
+      "label": "非法套现金额"
+    },
+    {
+      "num": "2600",
+      "unit": "万元",
+      "label": "非法放贷金额"
+    },
+    {
+      "num": "25",
+      "unit": "基点",
+      "label": "澳大利亚央行加息幅度"
+    },
+    {
+      "num": "6",
+      "unit": "%",
+      "label": "海底捞股价涨幅"
+    }
+  ],
+  "items": [
+    {
+      "category": "risk",
+      "tier": "T2",
+      "source": "新浪财经",
+      "score": 8.5,
+      "title": "黑产流水线：3天8家银行9台POS机截流2000万",
+      "url": "https://finance.sina.com.cn/roll/2026-11-03/doc-inixnitv8602311.shtml",
+      "summary": "上海市民周某被'征信洗白'骗局诱骗，3天内跑8家银行申贷170余万元，9台POS机截流15%服务费，实际到手无几。黑产公司非法套现<b>2000余万元</b>、非法放贷近<b>2600万元</b>，致40余人受害。主犯被判刑5年8个月，罚金265万元。",
+      "reason": "警惕高息'债务重组'骗局，加强客户信用审核，防止被利用为骗贷工具人。",
+      "dateNote": "2026-11-03",
+      "links": []
+    },
+    {
+      "category": "consumer",
+      "tier": "T2",
+      "source": "新浪财经",
+      "score": 7.8,
+      "title": "招联数智服务1500万客户，40%用户自助获贷",
+      "url": "https://finance.sina.com.cn/stock/relnews/hk/2026-11-03/doc-inixncmu6727204.shtml",
+      "summary": "招联以数智技术服务'两司两员'群体，'自信'支持<b>1500万</b>客户降价减息，<b>40%</b>用户在传统机构无法服务时完成自助认证；'自愈'服务助<b>500万</b>客户，<b>200万</b>成功还款，构建全周期信用循环。",
+      "reason": "利用数智化增信和贷后管理，提升新就业群体普惠服务效率。",
+      "dateNote": "2026-11-03",
+      "links": []
+    },
+    {
+      "category": "tech",
+      "tier": "T2",
+      "source": "新浪财经",
+      "score": 7.5,
+      "title": "银行名单细化，浙商七成合作标注'仅存续'",
+      "url": "https://finance.sina.com.cn/jjxw/2026-11-03/doc-inixncmw2219856.shtml",
+      "summary": "银行互联网贷款名单披露细化，浙商银行23家合作中<b>16家</b>标注'仅存续业务'，占比<b>近七成</b>；上海银行分三类机构；重庆银行三款产品停止投放，反映行业收缩态势。",
+      "reason": "优化合作机构管理，逐步退出不符合新规的助贷业务，聚焦自营能力。",
+      "dateNote": "2026-11-03",
+      "links": []
+    },
+    {
+      "category": "mortgage",
+      "tier": "T2",
+      "source": "新浪财经",
+      "score": 7.2,
+      "title": "中信：房地产信贷投放放缓，开发贷质量提升",
+      "url": "https://finance.sina.com.cn/jryx/bank/2026-11-03/doc-inixmxcy2293130.shtml",
+      "summary": "中信银行称，'828新政'下银行房地产信贷投放将<b>放缓</b>，新增开发贷资产质量<b>提升</b>；区域聚焦高能级城市核心区域，业态支持现房销售项目。",
+      "reason": "适应房地产新政，调整信贷策略，提升项目风险评估能力。",
+      "dateNote": "2026-11-03",
+      "links": []
+    },
+    {
+      "category": "macro",
+      "tier": "T2",
+      "source": "新浪财经",
+      "score": 7,
+      "title": "广东支持消费养老再贷款，促内需",
+      "url": "https://finance.sina.com.cn/jjxw/2026-11-03/doc-inixmxcz8704009.shtml",
+      "summary": "广东支持商业银行用好服务消费与养老再贷款、支农支小再贷款、再贴现等工具，加大信贷支持；鼓励金融机构丰富消费金融产品，针对AI消费定制服务。",
+      "reason": "利用结构性货币政策工具，拓展消费信贷领域，支持新消费场景。",
+      "dateNote": "2026-11-03",
+      "links": []
+    },
+    {
+      "category": "macro",
+      "tier": "T2",
+      "source": "新浪财经",
+      "score": 7,
+      "title": "澳央行加息25基点，利率18年最高4.85%",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-03/doc-inixmnqe2386159.shtml",
+      "summary": "澳大利亚央行加息<b>25个基点</b>至<b>4.85%</b>，<b>18年最高</b>；今年第五次加息，通胀未回落目标2%-3%。",
+      "reason": "关注国际利率动向，评估对跨境信贷和汇率风险的影响。",
+      "dateNote": "2026-11-03",
+      "links": []
+    },
+    {
+      "category": "consumer",
+      "tier": "T2",
+      "source": "新浪财经",
+      "score": 7,
+      "title": "海底捞涨超6%，张勇提前还清1亿借款",
+      "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-11-03/doc-inixmnqe2378744.shtml",
+      "summary": "海底捞早盘涨<b>超6%</b>，张勇提前偿还贷款本金及利息，最多<b>1亿元</b>；董事会主席兼CEO职务未变。",
+      "reason": "企业债务管理影响股价，关注高管财务行为对信贷风险评估的影响。",
+      "dateNote": "2026-11-03",
+      "links": []
+    },
+    {
+      "category": "macro",
+      "tier": "T1",
+      "source": "金融监管总局·政策法规",
+      "score": 9.5,
+      "title": "资产管理信托管理办法答记者问（无正文）",
+      "url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1277213&itemId=915",
+      "summary": "国家金融监督管理总局有关司局负责人就《资产管理信托管理办法》答记者问，具体内容未披露。",
+      "reason": "关注政策动态，但细节缺失。",
+      "dateNote": "2026-10-30",
+      "links": []
+    },
+    {
+      "category": "macro",
+      "tier": "T1",
+      "source": "金融监管总局·新闻",
+      "score": 9,
+      "title": "警保合作助力农村交通安全治理（无正文）",
+      "url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1277118&itemId=861",
+      "summary": "国家金融监督管理总局办公厅与公安部办公厅联合发布指导意见，深化警保合作助力农村道路交通安全隐患治理，具体内容未披露。",
+      "reason": "关注农村金融安全合作，但细节缺失。",
+      "dateNote": "2026-10-30",
+      "links": []
+    }
+  ]
+}
