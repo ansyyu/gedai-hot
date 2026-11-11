@@ -1,0 +1,140 @@
+{
+  "date": "2026-11-11",
+  "weekday": "星期三",
+  "focus": {
+    "title": "中加金融监管合作会议召开",
+    "summary": "中加金融监管合作会议在即，六大行不良贷款率呈‘四降两升’，普惠小微贷款余额达38.5万亿元，利率降至3.57%，原银保监会李均锋称中小银行应是普惠金融主力军，储蓄国债‘秒光’凸显定存利率回升抢购潮。"
+  },
+  "stats": [
+    {
+      "num": "38.5",
+      "unit": "万亿元",
+      "label": "普惠小微贷款余额"
+    },
+    {
+      "num": "3.57",
+      "unit": "%",
+      "label": "普惠小微新发放贷款利率"
+    },
+    {
+      "num": "818",
+      "unit": "亿元",
+      "label": "六大行不良贷款余额较年初增加"
+    },
+    {
+      "num": "6.7",
+      "unit": "%",
+      "label": "普惠小微贷款同比增长"
+    }
+  ],
+  "items": [
+    {
+      "category": "macro",
+      "tier": "T1",
+      "source": "金融监管总局·政策法规",
+      "score": 9.5,
+      "title": "中加金融监管合作会议召开",
+      "url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1278720&itemId=915",
+      "summary": "中加两国金融监管合作迎来新进展，丁向群与加拿大财政部长商鹏飞共同主持会议，具体合作细节未披露。",
+      "reason": "关注国际金融监管动态，为跨境业务合规提供参考。",
+      "dateNote": "2026-11-11",
+      "links": []
+    },
+    {
+      "category": "risk",
+      "tier": "T2",
+      "source": "新浪财经",
+      "score": 8.2,
+      "title": "六大行不良率‘四降两升’：对公改善零售承压",
+      "url": "https://finance.sina.com.cn/money/bank/gsdt/2026-11-10/doc-iniyhfqw9166935.shtml",
+      "summary": "<b>10月末</b>，工行、农行、中行、建行不良率下降，邮储、交行上升，整体在<b>0.99%-1.29%</b>区间；不良余额合计<b>1.68万亿元</b>，较年初增<b>818亿元</b>。对公端改善，零售端承压，资产质量关注点转向零售。",
+      "reason": "关注对公与零售信贷风险分化，优化不良处置策略。",
+      "dateNote": "2026-11-10",
+      "links": []
+    },
+    {
+      "category": "risk",
+      "tier": "T2",
+      "source": "新浪财经",
+      "score": 8.8,
+      "title": "‘猫贷’套路揭秘：分期24期、逾期利率131.4%",
+      "url": "https://finance.sina.com.cn/money/bank/bank_hydt/2026-11-10/doc-iniyfuyw5974708.shtml",
+      "summary": "记者暗访发现，‘免费领养’变<b>24期分期</b>，逾期年化利率高达<b>131.4%</b>，甚至猫死亡后仍需还贷。此类套路利用领养贴子引流，合同条款苛刻，需警惕非法金融活动。",
+      "reason": "加强消费者金融知识普及，防范消费陷阱。",
+      "dateNote": "2026-11-10",
+      "links": []
+    },
+    {
+      "category": "macro",
+      "tier": "T2",
+      "source": "新浪财经",
+      "score": 7.5,
+      "title": "达拉斯联储行长支持再加息两次",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-11/doc-iniyhses8999028.shtml",
+      "summary": "达拉斯联储行长洛根称，仍需至少再加息<b>两次</b>，每次<b>25基点</b>，但加息步伐可能加快，以应对通胀压力。",
+      "reason": "关注美联储加息动向，评估国际利率环境变化。",
+      "dateNote": "2026-11-10",
+      "links": []
+    },
+    {
+      "category": "macro",
+      "tier": "T2",
+      "source": "新浪财经",
+      "score": 7,
+      "title": "利率自律机制核心成员增至18家",
+      "url": "https://finance.sina.com.cn/roll/2026-11-10/doc-iniyfkmf2791086.shtml",
+      "summary": "上海银行、杭州银行、宁波银行加入核心成员，首次有3家城商行集体入列，反映机制对区域市场代表性的增强。",
+      "reason": "关注区域银行定价能力提升，优化区域信贷政策。",
+      "dateNote": "2026-11-10",
+      "links": []
+    },
+    {
+      "category": "macro",
+      "tier": "T2",
+      "source": "新浪财经",
+      "score": 7,
+      "title": "回购专项贷款承诺函密集落地",
+      "url": "https://finance.sina.com.cn/money/bank/bank_hydt/2026-11-11/doc-iniyhses9017000.shtml",
+      "summary": "月内已有<b>32家公司</b>取得股票回购增持贷款承诺函，再贷款利率降至<b>1%</b>，支持资本市场稳定运行。",
+      "reason": "关注上市公司市值管理工具，把握再融资机会。",
+      "dateNote": "2026-11-10",
+      "links": []
+    },
+    {
+      "category": "macro",
+      "tier": "T2",
+      "source": "新浪财经",
+      "score": 7,
+      "title": "普惠金融规模达38.5万亿元",
+      "url": "https://finance.sina.com.cn/money/bank/bank_hydt/2026-11-10/doc-iniyfuyw5979057.shtml",
+      "summary": "三季度末普惠小微贷款余额达<b>38.5万亿元</b>，同比增长<b>6.7%</b>，新发放贷款利率降至<b>3.57%</b>，迈入提质增效新阶段。",
+      "reason": "关注小微金融政策导向，优化普惠信贷结构。",
+      "dateNote": "2026-11-10",
+      "links": []
+    },
+    {
+      "category": "macro",
+      "tier": "T2",
+      "source": "新浪财经",
+      "score": 7,
+      "title": "原银保监会李均锋：中小银行应是普惠金融主力",
+      "url": "https://finance.sina.com.cn/wm/2026-11-10/doc-iniyfech2848645.shtml",
+      "summary": "李均锋称，中小银行及非银行机构应是普惠金融主力，需推进改革、化险、转型，服务属地需求。",
+      "reason": "关注中小银行普惠金融服务短板，探索差异化发展路径。",
+      "dateNote": "2026-11-10",
+      "links": []
+    },
+    {
+      "category": "macro",
+      "tier": "T2",
+      "source": "新浪财经",
+      "score": 7,
+      "title": "储蓄国债‘秒光’：定存利率回升抢购潮",
+      "url": "https://finance.sina.com.cn/jjxw/2026-11-10/doc-iniyfkma6026371.shtml",
+      "summary": "年内最后一批储蓄国债‘秒光’，3年期利率为<b>1.63%</b>，5年期为<b>1.70%</b>，凸显定存利率回升下的抢购热潮。",
+      "reason": "关注居民资产配置需求，把握稳健投资机会。",
+      "dateNote": "2026-11-10",
+      "links": []
+    }
+  ]
+}
