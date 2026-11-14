@@ -1,0 +1,200 @@
+{
+  "date": "2026-11-14",
+  "weekday": "星期六",
+  "focus": {
+    "title": "2026年前三季度中国货币政策大事记",
+    "summary": "2026年前三季度，中国央行密集调整货币政策，包括下调再贷款利率0.25个百分点，增加支农支小再贷款额度5000亿元，科技创新再贷款额度4000亿元，设立民营企业再贷款额度1万亿元，旨在支持实体经济，引导资金流向重点领域。"
+  },
+  "stats": [
+    {
+      "num": "0.25",
+      "unit": "个百分点",
+      "label": "再贷款利率下调幅度"
+    },
+    {
+      "num": "5000",
+      "unit": "亿元",
+      "label": "支农支小再贷款额度增加"
+    },
+    {
+      "num": "4000",
+      "unit": "亿元",
+      "label": "科技创新再贷款额度增加"
+    },
+    {
+      "num": "1",
+      "unit": "万亿元",
+      "label": "民营企业再贷款额度"
+    }
+  ],
+  "items": [
+    {
+      "category": "macro",
+      "tier": "T1.5",
+      "source": "新浪财经",
+      "score": 8.5,
+      "title": "张语恩获批担任长银五八消金董事",
+      "url": "https://finance.sina.com.cn/roll/2026-11-13/doc-iniyqwtx1240093.shtml",
+      "summary": "湖南金融监管局核准张语恩担任长银五八消费金融股份有限公司董事。",
+      "reason": "个贷从业者应关注高管变动，及时调整贷款产品策略以适应公司方向变化。",
+      "dateNote": "2026-11-13",
+      "links": []
+    },
+    {
+      "category": "macro",
+      "tier": "T1.5",
+      "source": "新浪财经",
+      "score": 8,
+      "title": "蚂蚁起诉百度索赔50万元",
+      "url": "https://finance.sina.com.cn/money/bank/bank_hydt/2026-11-13/doc-iniyqwtz3573229.shtml",
+      "summary": "蚂蚁集团与蚂蚁消金起诉百度和易小满，因“花呗”关键词广告侵权，要求赔偿<b>50万元</b>。",
+      "reason": "个贷从业者应保护品牌权益，防范关键词广告侵权引发法律纠纷。",
+      "dateNote": "2026-11-13",
+      "links": []
+    },
+    {
+      "category": "macro",
+      "tier": "T1.5",
+      "source": "新浪财经",
+      "score": 8,
+      "title": "金融科技奖评定297个项目",
+      "url": "https://finance.sina.com.cn/roll/2026-11-13/doc-iniyqwtx1171249.shtml",
+      "summary": "2025年度金融科技发展奖评审领导小组会议召开，评定<b>297个</b>获奖项目，展现金融业创新实践。",
+      "reason": "个贷从业者可借鉴金融科技创新，提升贷款审批效率和风险管理能力。",
+      "dateNote": "2026-11-13",
+      "links": []
+    },
+    {
+      "category": "macro",
+      "tier": "T1.5",
+      "source": "新浪财经",
+      "score": 9,
+      "title": "比上年同期低约0.2个百分点！贷款利率保持低位",
+      "url": "https://finance.sina.com.cn/money/bank/bank_hydt/2026-11-13/doc-iniyqwtx1188469.shtml",
+      "summary": "来源：金融时报 11月13日，央行公布最新金融数据。根据《金融时报》记者从央行获得的数据，10月份企业新发放贷款加权平均利率约为2.9%，比上年同期低约0.2个百分点...",
+      "reason": "",
+      "dateNote": "2026-11-13",
+      "links": []
+    },
+    {
+      "category": "macro",
+      "tier": "T1.5",
+      "source": "新浪财经",
+      "score": 8.5,
+      "title": "央行邹澜：信贷降速提质成宏观运行新常态 征信体系适配性有待提升",
+      "url": "https://finance.sina.com.cn/money/bank/bank_yhfg/2026-11-13/doc-iniypzqk8086095.shtml",
+      "summary": "来源：财联社 11月13日，中国人民银行副行长邹澜在第十七届财新峰会上谈及我国征信业的发展与变革。他指出，在金融强国建设、数字中国建设...",
+      "reason": "",
+      "dateNote": "2026-11-13",
+      "links": []
+    },
+    {
+      "category": "macro",
+      "tier": "T1",
+      "source": "央行·沟通交流",
+      "score": 9.5,
+      "title": "2026年前三季度中国货币政策大事记",
+      "url": "http://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026111116304170164/index.html",
+      "summary": "2026年前三季度中国货币政策大事记",
+      "reason": "",
+      "dateNote": "2026-11-11",
+      "links": []
+    },
+    {
+      "category": "mortgage",
+      "tier": "T1.5",
+      "source": "新浪财经",
+      "score": 7.5,
+      "title": "建行乌鲁木齐支行被罚30万元",
+      "url": "https://finance.sina.com.cn/jryx/fd/2026-11-13/doc-iniyqwtt0913896.shtml",
+      "summary": "中国建设银行乌鲁木齐新华南路支行因信贷业务管理不到位被罚款<b>30万元</b>。",
+      "reason": "个贷从业者需加强信贷流程管理，确保合规操作避免类似处罚。",
+      "dateNote": "2026-11-13",
+      "links": []
+    },
+    {
+      "category": "sme",
+      "tier": "T1",
+      "source": "金融监管总局·通知",
+      "score": 8,
+      "title": "国家金融监督管理总局 国家知识产权局 国家版权局联合发布知识产权金融生态综合试点典型案例",
+      "url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1278965&itemId=925",
+      "summary": "国家金融监督管理总局 国家知识产权局 国家版权局联合发布知识产权金融生态综合试点典型案例",
+      "reason": "",
+      "dateNote": "2026-11-13",
+      "links": []
+    },
+    {
+      "category": "sme",
+      "tier": "T2",
+      "source": "新浪财经",
+      "score": 7.5,
+      "title": "农业信贷担保增信助融资",
+      "url": "https://finance.sina.com.cn/jjxw/2026-11-13/doc-iniypqyi1110223.shtml",
+      "summary": "来源：经济日报 记者：尚咲 目前，全国秋粮收获过九成，丰收已成定局，收购、秋整地、备春耕紧随其后，每个环节都等着资金周转。",
+      "reason": "",
+      "dateNote": "2026-11-12",
+      "links": []
+    },
+    {
+      "category": "consumer",
+      "tier": "T1.5",
+      "source": "新浪财经",
+      "score": 7,
+      "title": "全球高利率周期见顶，资产配置先防御后成长",
+      "url": "https://finance.sina.com.cn/jryx/hm/2026-11-13/doc-iniyrazx3561250.shtml",
+      "summary": "浙商证券李超展望2027年，全球高利率周期见顶，主要央行降息；GDP目标<b>4.5%</b>，财政货币双轮加码；大类资产配置“先防御、后成长”，上半年红利资产占优，下半年关注AI与消费主线。",
+      "reason": "个贷从业者应调整贷款策略，优先配置高股息防御性资产，下半年转向科技和消费领域。",
+      "dateNote": "2026-11-13",
+      "links": []
+    },
+    {
+      "category": "risk",
+      "tier": "T1.5",
+      "source": "新浪财经",
+      "score": 7.5,
+      "title": "债券融资占比超贷款13.87个百分点",
+      "url": "https://finance.sina.com.cn/jryx/fd/2026-11-13/doc-iniyrazw7941575.shtml",
+      "summary": "央行数据显示，1-10月债券和股票融资占比<b>52.99%</b>，超贷款<b>13.87个百分点</b>；企业债券新增<b>3.1万亿元</b>，科技贷款增速<b>12.0%</b%，显示融资渠道多元化，债券替代贷款效应增强。",
+      "reason": "个贷从业者需综合评估信用风险，关注债券增长对贷款需求的影响，优化风控模型。",
+      "dateNote": "2026-11-13",
+      "links": []
+    },
+    {
+      "category": "risk",
+      "tier": "T1.5",
+      "source": "新浪财经",
+      "score": 8,
+      "title": "搜“花呗”跳出别家贷款广告，蚂蚁将百度告上法庭",
+      "url": "https://finance.sina.com.cn/money/bank/gsdt/2026-11-13/doc-iniyqfwh8102901.shtml",
+      "summary": "来源：腾讯财经 在百度搜索“花呗”，页面跳转至“易小满”提供的贷款服务——近日，“花呗”运营方蚂蚁消金和蚂蚁集团，将百度搜索运营方和易小满告上了法庭。",
+      "reason": "",
+      "dateNote": "2026-11-13",
+      "links": []
+    },
+    {
+      "category": "tech",
+      "tier": "T1.5",
+      "source": "新浪财经",
+      "score": 8,
+      "title": "如何推动征信业高质量发展？央行副行长邹澜介绍四方面重点任务",
+      "url": "https://finance.sina.com.cn/jryx/bank/2026-11-13/doc-iniypzqi1317319.shtml",
+      "summary": "11月13日金融一线消息，第十七届财新峰会于11月11日至13日在北京举行，中国人民银行副行长邹澜出席并以“我国征信业的发展与变革”为题发表演讲。",
+      "reason": "",
+      "dateNote": "2026-11-13",
+      "links": []
+    },
+    {
+      "category": "tech",
+      "tier": "T1",
+      "source": "央行·沟通交流",
+      "score": 8.5,
+      "title": "金融科技发展奖评审领导小组会议召开",
+      "url": "http://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026111210072039722/index.html",
+      "summary": "金融科技发展奖评审领导小组会议召开",
+      "reason": "",
+      "dateNote": "2026-11-12",
+      "links": []
+    }
+  ]
+}
