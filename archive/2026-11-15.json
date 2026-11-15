@@ -1,0 +1,224 @@
+{
+  "date": "2026-11-15",
+  "weekday": "星期日",
+  "focus": {
+    "title": "企业贷款利率首次降至3%以下",
+    "summary": "中国人民银行最新数据显示，9月企业贷款加权平均利率首次跌破3%，降至2.96%，较6月下降0.08个百分点，反映出货币政策持续宽松、信贷供需关系变化及实体经济融资成本进一步下降。这一趋势对银行净息差形成挤压，也促使银行更注重信贷投向的结构优化。"
+  },
+  "stats": [
+    {
+      "num": "3.03",
+      "unit": "%",
+      "label": "9月新发放贷款加权平均利率"
+    },
+    {
+      "num": "2.96",
+      "unit": "%",
+      "label": "9月企业贷款加权平均利率"
+    },
+    {
+      "num": "0.22",
+      "unit": "个百分点",
+      "label": "9月新发放贷款加权平均利率同比下降幅度"
+    },
+    {
+      "num": "0.19",
+      "unit": "个百分点",
+      "label": "9月企业贷款加权平均利率同比下降幅度"
+    }
+  ],
+  "items": [
+    {
+      "category": "macro",
+      "tier": "T2",
+      "source": "新浪财经",
+      "score": 7.5,
+      "title": "回购增持贷款大受欢迎 10天内超50家公司响应利率降至1%",
+      "url": "https://finance.sina.com.cn/jjxw/2026-11-14/doc-iniyrprs7779198.shtml",
+      "summary": "央行加码股票回购增持再贷款政策，利率降至1%，近10天A股超50家公司获专项贷款承诺函，洛钼业等单笔额度超18亿元。多数公司股价走强，政策提振市场信心。",
+      "reason": "个贷从业者可关注政策导向，理解企业融资需求变化，把握相关信贷业务机会。",
+      "dateNote": "2026-11-13",
+      "links": []
+    },
+    {
+      "category": "risk",
+      "tier": "T2",
+      "source": "新浪财经",
+      "score": 8,
+      "title": "苏州农商银行徐州鼓楼支行信贷违规被罚100万",
+      "url": "https://finance.sina.com.cn/jryx/fd/2026-11-13/doc-iniyrazw7926814.shtml",
+      "summary": "因流动资金贷款管理不审慎、未按规定报送涉刑案件等，苏州农商银行徐州鼓楼支行被罚100万，相关责任人员被禁业7年。",
+      "reason": "警示个贷业务需严格审查，加强贷后管理，防范合规风险。",
+      "dateNote": "2026-11-13",
+      "links": []
+    },
+    {
+      "category": "risk",
+      "tier": "T2",
+      "source": "新浪财经",
+      "score": 8,
+      "title": "浦发银行信阳分行贷款三查未尽职被罚30万",
+      "url": "https://finance.sina.com.cn/jryx/fd/2026-11-13/doc-iniyrazx3515955.shtml",
+      "summary": "因贷款三查未尽职，浦发银行信阳分行被罚30万，相关客户经理受警告。",
+      "reason": "提醒个贷业务需严格执行尽职调查流程，确保贷款合规。",
+      "dateNote": "2026-11-13",
+      "links": []
+    },
+    {
+      "category": "risk",
+      "tier": "T2",
+      "source": "新浪财经",
+      "score": 8,
+      "title": "工商银行信阳太古广场支行贷款三查未尽职被罚30万",
+      "url": "https://finance.sina.com.cn/jryx/fd/2026-11-13/doc-iniyrazx3514128.shtml",
+      "summary": "因贷款三查未尽职，工商银行信阳太古广场支行被罚30万，相关责任人员受警告。",
+      "reason": "强调个贷业务需重视贷前调查，防范信用风险。",
+      "dateNote": "2026-11-13",
+      "links": []
+    },
+    {
+      "category": "risk",
+      "tier": "T2",
+      "source": "新浪财经",
+      "score": 8,
+      "title": "河南农商银行范县辛庄支行贷款管理不到位被罚30万",
+      "url": "https://finance.sina.com.cn/jryx/fd/2026-11-13/doc-iniyrazx3510047.shtml",
+      "summary": "因贷款管理不到位，河南农商银行范县辛庄支行被罚30万。",
+      "reason": "提示个贷业务需完善内部控制，确保资金用途合规。",
+      "dateNote": "2026-11-13",
+      "links": []
+    },
+    {
+      "category": "risk",
+      "tier": "T2",
+      "source": "新浪财经",
+      "score": 7,
+      "title": "合康新能：公司无逾期担保情况 担保余额占净资产179.54%",
+      "url": "https://finance.sina.com.cn/stock/relnews/cn/2026-11-13/doc-iniyrazx3527403.shtml",
+      "summary": "合康新能公告，公司担保额度5000万元，占净资产274.52%；实际担保余额3270万元，占净资产179.54%，无逾期。",
+      "reason": "为评估企业信用风险提供参考，关注担保对公司财务的影响。",
+      "dateNote": "2026-11-13",
+      "links": []
+    },
+    {
+      "category": "risk",
+      "tier": "T2",
+      "source": "新浪财经",
+      "score": 7,
+      "title": "迪森股份：公司无担保逾期 担保余额占净资产1.57%",
+      "url": "https://finance.sina.com.cn/stock/relnews/cn/2026-11-13/doc-iniyrazx3528495.shtml",
+      "summary": "迪森股份公告，公司担保额度2500万元，占净资产1.57%；实际担保余额3002.25万元，占净资产1.57%，无担保逾期。",
+      "reason": "提示关注企业担保情况对信用评估的影响，尤其是无逾期情况。",
+      "dateNote": "2026-11-13",
+      "links": []
+    },
+    {
+      "category": "risk",
+      "tier": "T1.5",
+      "source": "新浪财经",
+      "score": 8.5,
+      "title": "五矿信托被罚198万 违反征信管理规定",
+      "url": "https://finance.sina.com.cn/stock/relnews/cn/2026-11-13/doc-iniyqwty8021193.shtml",
+      "summary": "五矿信托因违反征信管理规定被罚198万，央行要求其整改。",
+      "reason": "提醒个贷业务需重视征信数据管理，确保合规使用。",
+      "dateNote": "2026-11-13",
+      "links": []
+    },
+    {
+      "category": "risk",
+      "tier": "T2",
+      "source": "新浪财经",
+      "score": 8,
+      "title": "广东龙川农商银行贷款违规被罚40万",
+      "url": "https://finance.sina.com.cn/jryx/fd/2026-11-13/doc-iniyqwtz3559276.shtml",
+      "summary": "因流动资金贷款违规，广东龙川农商银行被罚40万，相关责任人员受警告。",
+      "reason": "警示个贷业务需遵守审慎经营规则，防范违规风险。",
+      "dateNote": "2026-11-13",
+      "links": []
+    },
+    {
+      "category": "risk",
+      "tier": "T2",
+      "source": "新浪财经",
+      "score": 8,
+      "title": "中国农业发展银行贷款审批不审慎被罚45万",
+      "url": "https://finance.sina.com.cn/jryx/fd/2026-11-13/doc-iniyqsnc3661432.shtml",
+      "summary": "农发行吕梁市分行因贷款审批不审慎被罚25万，文水县支行因贷后管理不尽职被罚20万。",
+      "reason": "提示个贷业务需加强贷款审批和贷后管理，防范信用风险。",
+      "dateNote": "2026-11-13",
+      "links": []
+    },
+    {
+      "category": "macro",
+      "tier": "T2",
+      "source": "新浪财经",
+      "score": 7,
+      "title": "铜价创两年最差连跌行情 跌幅约2%",
+      "url": "https://finance.sina.com.cn/world/2026-11-13/doc-iniyqsmz1258237.shtml",
+      "summary": "受AI行业震荡和美联储加息预期影响，铜价连续第五周收跌，跌破13500美元/吨，跌幅约2%，创下近两年最长连跌周期。",
+      "reason": "提示关注宏观经济和行业趋势对大宗商品价格的影响，评估相关信贷风险。",
+      "dateNote": "2026-11-13",
+      "links": []
+    },
+    {
+      "category": "macro",
+      "tier": "T1",
+      "source": "金融监管总局·新闻",
+      "score": 9,
+      "title": "国家金融监督管理总局加强财险费用分摊管理",
+      "url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1279049&itemId=861",
+      "summary": "金融监管总局发布通知，要求加强财险公司费用分摊管理，规范经营行为。",
+      "reason": "提示关注监管政策变化，规范相关业务操作，防范合规风险。",
+      "dateNote": "2026-11-13",
+      "links": []
+    },
+    {
+      "category": "macro",
+      "tier": "T2",
+      "source": "新浪财经",
+      "score": 9.5,
+      "title": "企业贷款利率首次降至3%以下",
+      "url": "https://finance.sina.com.cn/money/bank/bank_hydt/2026-11-13/doc-iniyqsmv0938112.shtml",
+      "summary": "央行报告显示，9月企业贷款加权平均利率降至2.96%，首次跌破3%，较6月下降0.08个百分点，反映货币政策宽松和信贷供需关系变化。",
+      "reason": "提示关注企业融资成本下降，评估信贷需求变化，优化信贷结构。",
+      "dateNote": "2026-11-13",
+      "links": []
+    },
+    {
+      "category": "risk",
+      "tier": "T2",
+      "source": "新浪财经",
+      "score": 7,
+      "title": "中国农业发展银行铅山县支行贷款管理不到位被罚30万",
+      "url": "https://finance.sina.com.cn/jryx/fd/2026-11-13/doc-iniyqnef3646338.shtml",
+      "summary": "农发行铅山县支行因贷款管理不到位被罚30万，相关负责人受警告和罚款。",
+      "reason": "警示个贷业务需加强贷款管理，防范信用风险。",
+      "dateNote": "2026-11-13",
+      "links": []
+    },
+    {
+      "category": "macro",
+      "tier": "T2",
+      "source": "新浪财经",
+      "score": 7,
+      "title": "农业银行副行长：信贷结构动能向新、向优、向好",
+      "url": "https://finance.sina.com.cn/jryx/bank/2026-11-13/doc-iniyqfwf1261930.shtml",
+      "summary": "农行副行长王大军表示，农行信贷增量中新兴增长占比超50%，信贷结构动能向新、向优、向好发展。",
+      "reason": "提示关注银行信贷投向变化，把握新兴领域信贷机会。",
+      "dateNote": "2026-11-13",
+      "links": []
+    },
+    {
+      "category": "macro",
+      "tier": "T2",
+      "source": "新浪财经",
+      "score": 7.5,
+      "title": "央行副行长：征信业需进化为综合性金融数据服务商",
+      "url": "https://finance.sina.com.cn/jryx/bank/2026-11-13/doc-iniypzqm3737684.shtml",
+      "summary": "央行副行长邹澜表示，征信业需从静态信贷信息共享进化为数据多元、动态交互的综合性金融数据服务商，以适应金融发展新阶段。",
+      "reason": "提示关注征信体系变革，提升数据应用能力，优化信用风险管理。",
+      "dateNote": "2026-11-13",
+      "links": []
+    }
+  ]
+}
