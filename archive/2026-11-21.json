@@ -1,0 +1,128 @@
+{
+  "date": "2026-11-21",
+  "weekday": "星期六",
+  "focus": {
+    "title": "LPR首期出炉：1年期3.0%，5年期3.5%",
+    "summary": "11月20日，LPR报价出炉：1年期3.0%，5年期以上3.5%，保持不变。这是主要政策利率换锚后首期，1年期较隔夜逆回购利率高175BP。专家分析LPR稳定因经济向好，未来2027年可能降息10-20BP。个贷从业者需关注此趋势，影响房贷和消费贷款定价。"
+  },
+  "stats": [
+    {
+      "num": "1.28",
+      "unit": "%",
+      "label": "DR001月加权平均利率"
+    },
+    {
+      "num": "1.65",
+      "unit": "%",
+      "label": "10年期国债收益率"
+    },
+    {
+      "num": "7.4",
+      "unit": "万亿元",
+      "label": "债券回购日均成交"
+    },
+    {
+      "num": "-10.8",
+      "unit": "%",
+      "label": "同业拆借同比增速"
+    }
+  ],
+  "items": [
+    {
+      "category": "mortgage",
+      "tier": "T1",
+      "source": "新浪财经",
+      "score": 9.5,
+      "title": "LPR首期出炉：1年期3.0%，5年期3.5%",
+      "url": "https://finance.sina.com.cn/roll/2026-11-20/doc-inizkqie3914391.shtml",
+      "summary": "11月20日，LPR报价为1年期<b>3.0%</b>，5年期以上<b>3.5%</b>，保持不变。这是主要政策利率换锚后首期，1年期较隔夜逆回购利率高<b>175BP</b>，5年期高<b>225BP</b>。专家分析LPR稳定因经济向好，未来2027年可能降息<b>10-20BP</b>。",
+      "reason": "个贷从业者需关注LPR稳定，影响房贷和消费贷款定价。",
+      "dateNote": "2026-11-20",
+      "links": []
+    },
+    {
+      "category": "mortgage",
+      "tier": "T1",
+      "source": "新浪财经",
+      "score": 9,
+      "title": "农行青岛分行被罚110万：违规放贷掩盖资产",
+      "url": "https://finance.sina.com.cn/jryx/fd/2026-11-20/doc-inizkurf0280790.shtml",
+      "summary": "农业银行青岛即墨分行违规发放贷款掩盖资产质量，罚款<b>40万元</b>；西海岸新区分行授信管理不到位，罚款<b>40万元</b>；青岛市分行营业部经营性物业贷款不审慎，罚款<b>30万元</b>。总计罚款<b>110万元</b>，涉及个人警告并罚款。",
+      "reason": "个贷从业者需加强贷款审核，避免类似违规。",
+      "dateNote": "2026-11-20",
+      "links": []
+    },
+    {
+      "category": "mortgage",
+      "tier": "T1",
+      "source": "新浪财经",
+      "score": 8.5,
+      "title": "招行青岛分行被罚30万：二手房贷款审核不严",
+      "url": "https://finance.sina.com.cn/jryx/fd/2026-11-20/doc-inizkurf0279301.shtml",
+      "summary": "招商银行青岛分行对二手房按揭贷款首付款审核不到位，罚款<b>30万元</b>；城阳支行银行承兑汇票办理不审慎，罚款<b>30万元</b>。总计罚款<b>60万元</b>，涉及个人警告。",
+      "reason": "个贷从业者需严格审核首付款，防范风险。",
+      "dateNote": "2026-11-20",
+      "links": []
+    },
+    {
+      "category": "mortgage",
+      "tier": "T1",
+      "source": "新浪财经",
+      "score": 8,
+      "title": "兴业银行青岛分行被罚50万：信贷管理不力",
+      "url": "https://finance.sina.com.cn/jryx/fd/2026-11-20/doc-inizkuqx5497246.shtml",
+      "summary": "兴业银行青岛分行信贷管理不尽职，罚款<b>50万元</b>；经济技术开发区支行流动资金贷款转作保证金，罚款<b>30万元</b>。总计罚款<b>80万元</b>，涉及个人警告并罚款。",
+      "reason": "个贷从业者需确保贷款用途合规。",
+      "dateNote": "2026-11-20",
+      "links": []
+    },
+    {
+      "category": "macro",
+      "tier": "T1",
+      "source": "金融监管总局·政策法规",
+      "score": 8.5,
+      "title": "三季度银行业保险业监管指标数据",
+      "url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1279786&itemId=915",
+      "summary": "正文抓取失败，仅有摘要无。基于标题，三季度银行业保险业监管指标数据发布，具体内容未获取。",
+      "reason": "个贷从业者需关注监管指标变化。",
+      "dateNote": "2026-11-20",
+      "links": []
+    },
+    {
+      "category": "mortgage",
+      "tier": "T1",
+      "source": "新浪财经",
+      "score": 8,
+      "title": "11月LPR报价不变：1年期3%，5年期3.5%",
+      "url": "https://finance.sina.com.cn/jryx/bank/2026-11-20/doc-inizitcn7337800.shtml",
+      "summary": "11月LPR报价，1年期为<b>3%</b>，与上月持平；5年期以上为<b>3.5%</b>，与上月持平。保持稳定，符合市场预期。",
+      "reason": "个贷从业者需参考LPR调整贷款利率。",
+      "dateNote": "2026-11-20",
+      "links": []
+    },
+    {
+      "category": "macro",
+      "tier": "T1",
+      "source": "央行·沟通交流",
+      "score": 7,
+      "title": "央行发行丁未羊年贵金属纪念币",
+      "url": "http://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026112014315654038/index.html",
+      "summary": "央行将发行2027中国丁未年贵金属纪念币一套，共11枚，包括金质6枚、银质4枚、铂质1枚。例如，10公斤金质纪念币面额<b>100000元</b>，最大发行量<b>18枚</b>；15克圆形金质纪念币最大发行量<b>100000枚</b>。",
+      "reason": "个贷从业者需关注贵金属市场动态，影响相关贷款。",
+      "dateNote": "2026-11-20",
+      "links": []
+    },
+    {
+      "category": "macro",
+      "tier": "T1",
+      "source": "央行·沟通交流",
+      "score": 7,
+      "title": "10月金融市场数据：DR001利率1.28%",
+      "url": "http://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026112015225760018/index.html",
+      "summary": "10月同业拆借日均成交<b>3365.1亿元</b>，同比减少<b>10.8%</b>；债券回购日均成交<b>7.4万亿元</b>，同比增加<b>2.0%</b>。DR001月加权平均利率<b>1.28%</b>，环比下降10BP；10年期国债收益率<b>1.65%</b>。",
+      "reason": "个贷从业者需关注市场利率变化，影响贷款成本。",
+      "dateNote": "2026-11-20",
+      "links": []
+    }
+  ]
+}
